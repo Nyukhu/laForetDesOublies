@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.124679550237005,
+          -7.709381139431116
+        ]
+      },
+      "properties": {
+        "title": "First point",
+        "name": "First point name"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.124679550237005,
+          0.509381139431116
+        ]
+      },
+      "properties": {
+        "title": "Second point",
+        "name": "Second point name"
+      }
+    }
+  ]
+}
