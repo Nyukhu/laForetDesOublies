@@ -1,5 +1,8 @@
 <template>
     <div id="map">
+        <img
+            id="indigenous-image"
+            src="datas/png/indigenous.png">
         <Modal
             :show="show"
             :properties="properties"></Modal>
@@ -41,15 +44,21 @@
                     .append("svg")
                     .attr("id", "svg")
                     .attr("width", widthMap)
-                    .attr("height", heightMap);
+                    .attr("height", heightMap)
+                    .attr("fill", "#dfedc9")
+                    .attr("stroke", "black")
+                    .attr("stroke-width", 1)
+                    .attr("style", "transform: rotate(-35deg);");
 
                 const amazonia = svg.append("g");
                 const points = svg.append("g");
+                const indigenousTerritory = svg.append("g");
 
                 let self = this;
                 Promise.all([
-                    d3.json("/datas/amazonia.json"),
-                    d3.json("/datas/points2.json")
+                    d3.json("/datas/json/amazonia.json"),
+                    d3.json("/datas/json/points2.json"),
+                    d3.json("/datas/json/indigenous_territory.json"),
                 ]).then((datas) => {
 
                     amazonia.selectAll("path")
@@ -61,6 +70,19 @@
 
                     points.selectAll("path")
                         .data(datas[1].features)
+                        .enter()
+                        .append("path")
+                        .attr('class', 'points')
+                        .attr("fill", "red")
+                        .attr("style", "cursor: pointer; z-index: 10")
+                        .attr("d", path)
+                        .on("click", (d) => {
+                            self.show = true;
+                            self.properties = d.properties;
+                        });
+
+                    indigenousTerritory.selectAll("path")
+                        .data(datas[2].features)
                         .enter()
                         .append("path")
                         .attr('class', 'points')
@@ -101,5 +123,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        #indigenous-image {
+            position: absolute;
+            pointer-events: none;
+            z-index: 5;
+            width: 1400px;
+            height: 1100px;
+            left: 50px;
+            top: -30px;
+        }
     }
 </style>
