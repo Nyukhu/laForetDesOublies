@@ -15,6 +15,22 @@
         props: {
             show: { type: Boolean },
             properties: { type: Object },
+        },
+        mounted () {
+            this.clickOutside();
+        },
+        methods: {
+            clickOutside () {
+                let app = document.querySelector('#app');
+                let self = this;
+                app.addEventListener('click', (event) => {
+                    if (event.target.id !== 'modal' && !event.target.classList.contains('points')) {
+                        if (self.show) {
+                            self.$emit('update:show', false)
+                        }
+                    }
+                });
+            }
         }
     }
 </script>
