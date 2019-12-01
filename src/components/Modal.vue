@@ -31,6 +31,6 @@
         height: 80vh;
         width: 80vw;
         background-color: red;
-        z-index: 5;
+        z-index: 20;
     }
 </style>

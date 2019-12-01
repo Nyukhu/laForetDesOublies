@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <Map></Map>
+    <div class="background-img"></div>
+    <div class="black-bg">
+      <Map></Map>
+    </div> 
   </div>
 </template>
 
@@ -18,5 +21,18 @@ export default {
 <style>
   body {
     margin: 0;
+    overflow: hidden;
+  }
+  .black-bg{
+    background: linear-gradient(to right, rgba(2, 5, 0,0.9) ,#020500 );
+  }
+  .background-img{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('~@/assets/images/indigenous.jpg');
+    background-position-x: 0vw;
+    transform: scaleX(-1);
+    position: absolute;
+    z-index: -1;
   }
 </style>
