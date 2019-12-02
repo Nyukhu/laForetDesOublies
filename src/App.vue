@@ -61,7 +61,8 @@
                 {
                     icon: 3,
                     label: 'Politique',
-                    name: 'politic'
+                    name: 'politic',
+                    chart: 'politic'
                 },
             ],
             show: false,

@@ -6,7 +6,7 @@
     import * as d3 from "d3";
 
     export default {
-        name: "Deforestation",
+        name: "BarChart",
        props: {
            name: {type: String}
        },

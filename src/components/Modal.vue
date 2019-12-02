@@ -15,7 +15,7 @@
                     <pie-chart :name="properties.charts[1]" />
                 </template>
                 <template v-else>
-                    <politic :name="properties.name" />
+                    <line-chart :name="properties.name" />
                 </template>
 
             </div>
@@ -27,22 +27,17 @@
 
     import PieChart from "./charts/PieChart";
     import BarChart from "./charts/BarChart";
-    import Politic from "./charts/Politic";
+    import LineChart from "./charts/LineChart";
 
     export default {
         name: "Modal",
-        components: {Politic, PieChart, BarChart},
+        components: {LineChart, PieChart, BarChart},
         props: {
             show: { type: Boolean },
             properties: { type: Object },
         },
         mounted () {
             this.clickOutside();
-        },
-        computed: {
-            currentComponent () {
-                return this.properties.name.charAt(0).toUpperCase() + this.properties.name.slice(1)
-            }
         },
         methods: {
             clickOutside () {

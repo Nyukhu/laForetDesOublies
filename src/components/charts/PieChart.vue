@@ -7,7 +7,7 @@
     import * as d3 from "d3";
 
     export default {
-        name: "Mortality",
+        name: "PieChart",
         mounted() {
             this.draw();
         },
