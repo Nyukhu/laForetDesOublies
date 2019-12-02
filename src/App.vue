@@ -49,12 +49,14 @@
                 {
                     icon: 1,
                     label: 'Deforestation',
-                    name: 'deforestation'
+                    name: 'deforestation',
+                    chart: 'deforestation'
                 },
                 {
                     icon: 2,
                     label: 'Mortalité',
-                    name: 'mortality'
+                    name: 'mortality',
+                    charts: ['deforestation', 'mortality']
                 },
                 {
                     icon: 3,

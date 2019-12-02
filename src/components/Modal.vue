@@ -7,7 +7,17 @@
         <div id="content">
             <h1> {{ properties.label }}</h1>
             <div id="chart-container">
-                <component :is="currentComponent" />
+                <template v-if="properties.name === 'deforestation'">
+                    <bar-chart :name="properties.chart" />
+                </template>
+                <template v-else-if="properties.name === 'mortality'">
+                    <bar-chart :name="properties.charts[0]" />
+                    <pie-chart :name="properties.charts[1]" />
+                </template>
+                <template v-else>
+                    <politic :name="properties.name" />
+                </template>
+
             </div>
         </div>
     </div>
@@ -15,13 +25,13 @@
 
 <script>
 
-    import Mortality from "./graphics/Mortality";
-    import Deforestation from "./graphics/Deforestation";
-    import Politic from "./graphics/Politic";
+    import PieChart from "./charts/PieChart";
+    import BarChart from "./charts/BarChart";
+    import Politic from "./charts/Politic";
 
     export default {
         name: "Modal",
-        components: {Politic, Deforestation, Mortality},
+        components: {Politic, PieChart, BarChart},
         props: {
             show: { type: Boolean },
             properties: { type: Object },

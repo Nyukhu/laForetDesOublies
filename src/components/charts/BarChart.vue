@@ -1,7 +1,5 @@
 <template>
-   <div id="chart">
-
-   </div>
+   <div id="bar-chart" />
 </template>
 
 <script>
@@ -9,6 +7,9 @@
 
     export default {
         name: "Deforestation",
+       props: {
+           name: {type: String}
+       },
         mounted() {
             this.draw();
         },
@@ -25,7 +26,7 @@
                 const y = d3.scaleLinear()
                     .range([height, 0]);
 
-                const svg = d3.select("#chart").append("svg")
+                const svg = d3.select("#bar-chart").append("svg")
                     .attr("id", "svg")
                     .attr("width", width + margin.left + margin.right)
                     .attr("height", height + margin.top + margin.bottom)
@@ -36,7 +37,7 @@
                     .attr("class", "tooltip")
                     .style("opacity", 0);
 
-               d3.json("datas/json/deforestation.json").then(function(data){
+               d3.json("datas/json/" + this.name +".json").then(function(data){
                   data.forEach(function(d) {
                      d.population = +d.population;
                   });
