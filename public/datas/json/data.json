@@ -1,0 +1,4174 @@
+[
+   {
+      "name":"Aikanã",
+      "aliases":[
+         "Massacá",
+         " Tubarão",
+         " Columbiara",
+         " Mundé",
+         " Mondé",
+         " Huari",
+         " Aikaná"
+      ],
+      "language":"Aikaná",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"350",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Aikewara",
+      "aliases":[
+         "Suruí",
+         " Sororós",
+         " Aikewara"
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"383",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Akuntsu",
+      "aliases":[
+         "Akunt'su "
+      ],
+      "language":"Tupari",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"3",
+            "year":"Fabricio Amorim 2019"
+         }
+      ]
+   },
+   {
+      "name":"Amanayé",
+      "aliases":[
+         "Amanaié",
+         " Araradeua "
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"178",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Amondawa",
+      "aliases":[
+         " "
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"126",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Anacé",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" CE ",
+            "pop":"2018",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Anambé",
+      "aliases":[
+         " "
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"161",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Aparai",
+      "aliases":[
+         "Apalai",
+         " Apalay",
+         " Appirois",
+         " Aparathy",
+         " Apareilles",
+         " Aparai"
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"514",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Guiana Francesa ",
+            "pop":"40",
+            "year":"Eliane Camargo 2011"
+         },
+         {
+            "localisation":" Suriname ",
+            "pop":"10",
+            "year":"Eliane Camargo 2011"
+         }
+      ]
+   },
+   {
+      "name":"Apiaká",
+      "aliases":[
+         "Apiacá "
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" MT, PA ",
+            "pop":"850",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Apinayé",
+      "aliases":[
+         "Apinaié",
+         " Apinajés",
+         " Timbira",
+         " Apinayé"
+      ],
+      "language":"Jê",
+      "populations":[
+         {
+            "localisation":" TO ",
+            "pop":"2277",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Apurinã",
+      "aliases":[
+         "Ipurina",
+         " Popukare"
+      ],
+      "language":"Aruak-maipure",
+      "populations":[
+         {
+            "localisation":" AM, MT, RO ",
+            "pop":"9487",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Aranã",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" MG ",
+            "pop":"362",
+            "year":"Funasa 2010"
+         }
+      ]
+   },
+   {
+      "name":"Arapaso",
+      "aliases":[
+         "Arapasso",
+         " Arapaço "
+      ],
+      "language":"Tukano",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"448",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Arapium",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"2204",
+            "year":"Siasi/Sesai 2012"
+         }
+      ]
+   },
+   {
+      "name":"Arara",
+      "aliases":[
+         "Arara do Pará",
+         " Ukaragma"
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"377",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Arara da Volta Grande do Xingu",
+      "aliases":[
+         "Arara do Maia "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"143",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Arara do Rio Amônia",
+      "aliases":[
+         "Apolima-Arara",
+         " Arara Apolima"
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" AC ",
+            "pop":"434",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Arara do Rio Branco",
+      "aliases":[
+         "Arara do Beiradão",
+         " Arara do Aripuanã"
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"249",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Arara Shawãdawa",
+      "aliases":[
+         "Arara do Acre",
+         " Shawanaua"
+      ],
+      "language":"Pano",
+      "populations":[
+         {
+            "localisation":" AC ",
+            "pop":"677",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Arara Vermelha",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"142",
+            "year":"Saúde e Alegria 2014"
+         }
+      ]
+   },
+   {
+      "name":"Araweté",
+      "aliases":[
+         "Araueté",
+         " Bïde"
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"467",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Arikapú",
+      "aliases":[
+         " "
+      ],
+      "language":"Jabuti",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"37",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Aruá",
+      "aliases":[
+         " "
+      ],
+      "language":"Mondé",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"94",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Ashaninka",
+      "aliases":[
+         "Kampa",
+         " Ashenika"
+      ],
+      "language":"Aruak",
+      "populations":[
+         {
+            "localisation":" AC ",
+            "pop":"1645",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Peru ",
+            "pop":"97477",
+            "year":"INEI 2007"
+         }
+      ]
+   },
+   {
+      "name":"Asurini do Tocantins",
+      "aliases":[
+         "Akuawa",
+         " Asurini"
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"546",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Asurini do Xingu",
+      "aliases":[
+         "Assurini",
+         " Awaete"
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"182",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Atikum",
+      "aliases":[
+         "Aticum "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" PE, BA ",
+            "pop":"7929",
+            "year":"Siasi/Sesai 2012"
+         }
+      ]
+   },
+   {
+      "name":"Avá-Canoeiro",
+      "aliases":[
+         "Canoeiro",
+         " Cara-Preta",
+         " Carijó "
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" TO, GO ",
+            "pop":"25",
+            "year":"Siasi/Sesai 2012"
+         }
+      ]
+   },
+   {
+      "name":"Awá Guajá",
+      "aliases":[
+         "Guajá",
+         " Awá"
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" MA ",
+            "pop":"468",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Aweti",
+      "aliases":[
+         "Awytyza",
+         " Enumaniá",
+         " Anumaniá",
+         " Auetö "
+      ],
+      "language":"Aweti",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"192",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Bakairi",
+      "aliases":[
+         "Bacairi",
+         " Kurã",
+         " Kurâ"
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"982",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Banawá",
+      "aliases":[
+         " "
+      ],
+      "language":"Arawá",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"207",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Baniwa",
+      "aliases":[
+         "Baniva",
+         " Baniua",
+         " Curipaco",
+         " Walimanai"
+      ],
+      "language":"Aruak",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"7145",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Colombia ",
+            "pop":"7000",
+            "year":" 2000"
+         },
+         {
+            "localisation":" Venezuela ",
+            "pop":"3501",
+            "year":"XIV Censo Nacional de Poblacion y Viviendas 2011"
+         }
+      ]
+   },
+   {
+      "name":"Bará",
+      "aliases":[
+         "Bara tukano",
+         " Waípinõmakã "
+      ],
+      "language":"Tukano",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"30",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Colombia ",
+            "pop":"296",
+            "year":" 1988"
+         }
+      ]
+   },
+   {
+      "name":"Barasana",
+      "aliases":[
+         " Panenoá"
+      ],
+      "language":"Tukano",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"55",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Colombia ",
+            "pop":"939",
+            "year":" 1998"
+         }
+      ]
+   },
+   {
+      "name":"Baré",
+      "aliases":[
+         "Hanera "
+      ],
+      "language":"Aruak",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"11472",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Venezuela ",
+            "pop":"5044",
+            "year":"XIV Censo Nacional de Poblacion y Viviendas 2011"
+         }
+      ]
+   },
+   {
+      "name":"Borari",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" PA, AM ",
+            "pop":"1116",
+            "year":"ISA 2014"
+         }
+      ]
+   },
+   {
+      "name":"Bororo",
+      "aliases":[
+         "Coxiponé",
+         " Araripoconé",
+         " Araés",
+         " Cuiabá",
+         " Coroados",
+         " Porrudos",
+         " Boe"
+      ],
+      "language":"Bororo",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"1817",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Canela Apanyekrá",
+      "aliases":[
+         "Canela",
+         " Timbira "
+      ],
+      "language":"Jê",
+      "populations":[
+         {
+            "localisation":" MA ",
+            "pop":"1076",
+            "year":"Siasi/Sesai 2012"
+         }
+      ]
+   },
+   {
+      "name":"Canela Ramkokamekrá",
+      "aliases":[
+         "Canela",
+         " Timbira "
+      ],
+      "language":"Jê",
+      "populations":[
+         {
+            "localisation":" MA ",
+            "pop":"2175",
+            "year":"Siasi/Sesai 2012"
+         }
+      ]
+   },
+   {
+      "name":"Cara Preta",
+      "aliases":[
+         "Matapu",
+         " Munduruku "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"",
+            "year":" "
+         }
+      ]
+   },
+   {
+      "name":"Chamacoco",
+      "aliases":[
+         " "
+      ],
+      "language":"Samuko",
+      "populations":[
+         {
+            "localisation":" MS ",
+            "pop":"40",
+            "year":"Grumberg 1994"
+         },
+         {
+            "localisation":" Paraguai ",
+            "pop":"1515",
+            "year":"II Censo Nacional Indígena 2002"
+         }
+      ]
+   },
+   {
+      "name":"Charrua",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" Argentina ",
+            "pop":"6397",
+            "year":"INDEC 2010"
+         },
+         {
+            "localisation":" RS ",
+            "pop":"42",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Chiquitano",
+      "aliases":[
+         "Chiquito "
+      ],
+      "language":"Chiquito",
+      "populations":[
+         {
+            "localisation":" Bolivia ",
+            "pop":"87885",
+            "year":"Censo Nacional de Poblacion y Viviendas 2012"
+         },
+         {
+            "localisation":" MT ",
+            "pop":"473",
+            "year":"Siasi/Funasa 2012"
+         }
+      ]
+   },
+   {
+      "name":"Cinta larga",
+      "aliases":[
+         " Matetamãe"
+      ],
+      "language":"Mondé",
+      "populations":[
+         {
+            "localisation":" MT, RO ",
+            "pop":"1954",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Deni",
+      "aliases":[
+         " Jamamadi"
+      ],
+      "language":"Arawá",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"1610",
+            "year":"Cimi-Tefé 2015"
+         }
+      ]
+   },
+   {
+      "name":"Desana",
+      "aliases":[
+         "Desano",
+         " Dessano "
+      ],
+      "language":"Tukano",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"1699",
+            "year":"ISA/Foirn, 2017 2017"
+         },
+         {
+            "localisation":" Colombia ",
+            "pop":"2036",
+            "year":" 1998"
+         }
+      ]
+   },
+   {
+      "name":"Djeoromitxí",
+      "aliases":[
+         "Jaboti "
+      ],
+      "language":"Jabuti",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"225",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Dow",
+      "aliases":[
+         "Maku",
+         " Kamã "
+      ],
+      "language":"Makú",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"121",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Enawenê-nawê",
+      "aliases":[
+         "Enauenê nauê",
+         " Salumã",
+         " Enawenê-nawê"
+      ],
+      "language":"Aruak",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"737",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Fulni-ô",
+      "aliases":[
+         " "
+      ],
+      "language":"Ia-tê",
+      "populations":[
+         {
+            "localisation":" PE ",
+            "pop":"4689",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Galibi do Oiapoque",
+      "aliases":[
+         "Galibi",
+         " Kalinã "
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" AP ",
+            "pop":"88",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Guiana Francesa ",
+            "pop":"3000",
+            "year":"OkaMag 2002"
+         },
+         {
+            "localisation":" Suriname ",
+            "pop":"3000",
+            "year":"OkaMag 2002"
+         },
+         {
+            "localisation":" Venezuela ",
+            "pop":"33824",
+            "year":"XIV Censo Nacional de Poblacion y Viviendas 2011"
+         }
+      ]
+   },
+   {
+      "name":"Galibi-Marworno",
+      "aliases":[
+         "Galibi do Uaçá",
+         " Aruá "
+      ],
+      "language":"Creoulo",
+      "populations":[
+         {
+            "localisation":" AP ",
+            "pop":"2529",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Gamela",
+      "aliases":[
+         "Akroá Gamela "
+      ],
+      "language":"",
+      "populations":[
+
+      ]
+   },
+   {
+      "name":"Gavião Akrãtikatêjê",
+      "aliases":[
+         "Gavião da Montanha",
+         " Akratikatêjê"
+      ],
+      "language":"Jê",
+      "populations":[
+
+      ]
+   },
+   {
+      "name":"Gavião Kykatejê",
+      "aliases":[
+         "Gavião do Maranhão",
+         " Timbira "
+      ],
+      "language":"Jê",
+      "populations":[
+         {
+            "localisation":" MA ",
+            "pop":"362",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Gavião Parkatêjê",
+      "aliases":[
+         "Gavião do Mãe Maria",
+         " Gavião do Oeste",
+         " Timbira",
+         " Parkatejê"
+      ],
+      "language":"Jê",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"646",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Gavião Pykopjê",
+      "aliases":[
+         "Gavião do Maranhão",
+         " Gavião Pukobiê",
+         " Gavião do Leste",
+         " Timbira",
+         " Pykopcatejê"
+      ],
+      "language":"Jê",
+      "populations":[
+         {
+            "localisation":" MA ",
+            "pop":"769",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Guajajara",
+      "aliases":[
+         " Guajajara",
+         " Tenetehara"
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" MA ",
+            "pop":"27616",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Guarani",
+      "aliases":[
+         "Kaiowá",
+         " Mbya",
+         " Ñandeva "
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" Argentina ",
+            "pop":"54825",
+            "year":"Mapa Guarani Continental 2016"
+         },
+         {
+            "localisation":" Bolivia ",
+            "pop":"83019",
+            "year":"Mapa Guarani Continental 2016"
+         },
+         {
+            "localisation":" RS, SC, PR, SP, RJ, ES, MS, PA ",
+            "pop":"85255",
+            "year":"Mapa Guarani Continental 2016"
+         },
+         {
+            "localisation":" Paraguai ",
+            "pop":"61701",
+            "year":"Mapa Guarani Continental 2016"
+         }
+      ]
+   },
+   {
+      "name":"Guarasugwe",
+      "aliases":[
+         " "
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"",
+            "year":" "
+         }
+      ]
+   },
+   {
+      "name":"Guató",
+      "aliases":[
+         " "
+      ],
+      "language":"Guató",
+      "populations":[
+         {
+            "localisation":" MS, MT ",
+            "pop":"419",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Hixkaryana",
+      "aliases":[
+         "Hixkariana "
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" PA,AM ",
+            "pop":"1242",
+            "year":"Siasi/Sesai 2012"
+         }
+      ]
+   },
+   {
+      "name":"Huni Kuin",
+      "aliases":[
+         "Kaxinawá",
+         " Cashinauá",
+         " Caxinauá",
+         " Huni Kuin",
+         " huni kuin"
+      ],
+      "language":"Pano",
+      "populations":[
+         {
+            "localisation":" AC ",
+            "pop":"10818",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Peru ",
+            "pop":"2419",
+            "year":"INEI 2007"
+         }
+      ]
+   },
+   {
+      "name":"Hupda",
+      "aliases":[
+         "Maku",
+         " Macu",
+         " Hupd'äh"
+      ],
+      "language":"Makú",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"1000",
+            "year":"Patricia 2012"
+         },
+         {
+            "localisation":" Colombia ",
+            "pop":"500",
+            "year":"Patricia 2012"
+         }
+      ]
+   },
+   {
+      "name":"Ikolen",
+      "aliases":[
+         "Gavião de Rondônia",
+         " Gavião Ikolen",
+         " Digut"
+      ],
+      "language":"Mondé",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"675",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Ikpeng",
+      "aliases":[
+         "Txicão",
+         " Ikpeng"
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"477",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Ingarikó",
+      "aliases":[
+         "Akawaio",
+         " Kapon"
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" RR ",
+            "pop":"1488",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Guiana ",
+            "pop":"4000",
+            "year":" 1990"
+         },
+         {
+            "localisation":" Venezuela ",
+            "pop":"728",
+            "year":" 1992"
+         }
+      ]
+   },
+   {
+      "name":"Iny Karajá",
+      "aliases":[
+         "Caraiauna",
+         " Iny"
+      ],
+      "language":"Karajá",
+      "populations":[
+         {
+            "localisation":" GO, MT, PA, TO ",
+            "pop":"3768",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Iranxe Manoki",
+      "aliases":[
+         "Irantxe",
+         " Manoki"
+      ],
+      "language":"Iranxe",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"408",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Jamamadi",
+      "aliases":[
+         "Yamamadi",
+         " Kanamanti "
+      ],
+      "language":"Arawá",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"987",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Jaraqui",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"140",
+            "year":"GT Funai 2008"
+         }
+      ]
+   },
+   {
+      "name":"Jarawara",
+      "aliases":[
+         "Jarauara "
+      ],
+      "language":"Arawá",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"271",
+            "year":"Jarawara 2014"
+         }
+      ]
+   },
+   {
+      "name":"Javaé",
+      "aliases":[
+         "Karajá/Javaé",
+         " Itya Mahãdu"
+      ],
+      "language":"Karajá",
+      "populations":[
+         {
+            "localisation":" GO, TO ",
+            "pop":"1484",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Jenipapo-Kanindé",
+      "aliases":[
+         "Payaku "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" CE ",
+            "pop":"328",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Jiahui",
+      "aliases":[
+         "Jahoi",
+         " Diarroi",
+         " Djarroi",
+         " Parintintin",
+         " Diahoi",
+         " Diahui",
+         " Kagwaniwa"
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"115",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Jiripancó",
+      "aliases":[
+         "Jeripancó",
+         " Geripancó "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" AL ",
+            "pop":"1757",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Juma",
+      "aliases":[
+         "Yuma "
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"4",
+            "year":"Uchida, Gabriel 2016"
+         }
+      ]
+   },
+   {
+      "name":"Ka'apor",
+      "aliases":[
+         "Urubu Kaapor",
+         " Kaapor "
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" MA ",
+            "pop":"1863",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kadiwéu",
+      "aliases":[
+         "Kaduveo",
+         " Caduveo",
+         " Kadivéu",
+         " Kadiveo "
+      ],
+      "language":"Guaikuru",
+      "populations":[
+         {
+            "localisation":" MS ",
+            "pop":"1413",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kaimbé",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" BA ",
+            "pop":"1029",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kaingang",
+      "aliases":[
+         "Guayanás "
+      ],
+      "language":"Jê",
+      "populations":[
+         {
+            "localisation":" PR, RS, SC, SP ",
+            "pop":"45620",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kaixana",
+      "aliases":[
+         "Caixana "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"928",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kalabaça",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" CE ",
+            "pop":"227",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kalankó",
+      "aliases":[
+         "Cacalancó "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" AL ",
+            "pop":"329",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kalapalo",
+      "aliases":[
+         " "
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"669",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kamaiurá",
+      "aliases":[
+         "Kamayurá "
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"604",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kamba",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" MS ",
+            "pop":"114",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kambeba",
+      "aliases":[
+         "Cambemba",
+         " Omaguá "
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"875",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Peru ",
+            "pop":"3500",
+            "year":"Benedito Maciel 1994"
+         }
+      ]
+   },
+   {
+      "name":"Kambiwá",
+      "aliases":[
+         "Cambiua "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" PE ",
+            "pop":"3105",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kanamari",
+      "aliases":[
+         "Canamari",
+         " Tukuna "
+      ],
+      "language":"Katukina",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"4002",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kanindé",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" CE ",
+            "pop":"1076",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kanoê",
+      "aliases":[
+         "Canoe",
+         " Kapixaná",
+         " Kapixanã "
+      ],
+      "language":"Kanoe",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"319",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kantaruré",
+      "aliases":[
+         "Cantaruré",
+         " Pankararu "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" BA ",
+            "pop":"401",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kapinawa",
+      "aliases":[
+         "Capinawa "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" PE ",
+            "pop":"2065",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Karajá do Norte",
+      "aliases":[
+         "Xambioá",
+         " Ixybiowa",
+         " Iraru Mahãndu",
+         " Karajá do Norte"
+      ],
+      "language":"Karajá",
+      "populations":[
+         {
+            "localisation":" TO ",
+            "pop":"287",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Karapanã",
+      "aliases":[
+         "Muteamasa",
+         " Ukopinõpõna "
+      ],
+      "language":"Tukano",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"111",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Colombia ",
+            "pop":"412",
+            "year":" 1988"
+         }
+      ]
+   },
+   {
+      "name":"Karapotó",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" AL ",
+            "pop":"900",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Karipuna de Rondônia",
+      "aliases":[
+         "Ahé",
+         " Karipuna",
+         " Ahé"
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"55",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Karipuna do Amapá",
+      "aliases":[
+         " "
+      ],
+      "language":"Creoulo",
+      "populations":[
+         {
+            "localisation":" AP ",
+            "pop":"2922",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kariri",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" CE, PI ",
+            "pop":"159",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kariri-Xokó",
+      "aliases":[
+         "Fulkaxó "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" AL ",
+            "pop":"1905",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Karitiana",
+      "aliases":[
+         "Caritiana",
+         " Yjxa"
+      ],
+      "language":"Arikén",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"333",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Karo",
+      "aliases":[
+         "Arara de Rondônia",
+         " Arara Karo",
+         " Arara Tupi",
+         " Ntogapíd",
+         " Ramaráma",
+         " Urukú",
+         " Urumí",
+         " I´târap"
+      ],
+      "language":"Ramarama",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"382",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Karuazu",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" AL ",
+            "pop":"1013",
+            "year":"Funasa 2010"
+         }
+      ]
+   },
+   {
+      "name":"Kassupá",
+      "aliases":[
+         " "
+      ],
+      "language":"Aikaná",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"149",
+            "year":"Siasi/Sesai 2013"
+         }
+      ]
+   },
+   {
+      "name":"Katuenayana",
+      "aliases":[
+         "Katuenayana",
+         " Katuwena"
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" AM, PA ",
+            "pop":"140",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Katukina do Rio Biá",
+      "aliases":[
+         "Tukuna "
+      ],
+      "language":"Katukina",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"628",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Katukina Pano",
+      "aliases":[
+         " "
+      ],
+      "language":"Pano",
+      "populations":[
+         {
+            "localisation":" AC ",
+            "pop":"1154",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Katxuyana",
+      "aliases":[
+         "Caxuiana",
+         " Kaxuyana "
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" AM, PA ",
+            "pop":"382",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kawaiwete",
+      "aliases":[
+         "Kayabi",
+         " Caiabi",
+         " Kaiaby",
+         " Kajabi",
+         " Cajabi",
+         " Kawaiwete"
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"2242",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kaxarari",
+      "aliases":[
+         "Caxarari "
+      ],
+      "language":"Pano",
+      "populations":[
+         {
+            "localisation":" AM, RO ",
+            "pop":"445",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kaxixó",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" MG ",
+            "pop":"301",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kinikinau",
+      "aliases":[
+         "Kinikinao",
+         " Kinikinawa",
+         " Guaná "
+      ],
+      "language":"Aruak",
+      "populations":[
+         {
+            "localisation":" MS ",
+            "pop":"600",
+            "year":"Rosaldo A.de Sousa 2016"
+         }
+      ]
+   },
+   {
+      "name":"Kiriri",
+      "aliases":[
+         "Kariri "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" BA ",
+            "pop":"2571",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kisêdjê",
+      "aliases":[
+         "Suyá",
+         " Kisidjê"
+      ],
+      "language":"Jê",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"424",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Koiupanká",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" AL ",
+            "pop":"627",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kokama",
+      "aliases":[
+         "Cocama",
+         " Kocama "
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"14314",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Colombia ",
+            "pop":"236",
+            "year":" 1988"
+         },
+         {
+            "localisation":" Peru ",
+            "pop":"11370",
+            "year":"INEI 2007"
+         }
+      ]
+   },
+   {
+      "name":"Koripako",
+      "aliases":[
+         "Curipaco",
+         " Curripaco",
+         " Coripako "
+      ],
+      "language":"Aruak",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"1673",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Colombia ",
+            "pop":"7827",
+            "year":"Arango e Sánchez 2004"
+         },
+         {
+            "localisation":" Venezuela ",
+            "pop":"4925",
+            "year":"INEI 2001"
+         }
+      ]
+   },
+   {
+      "name":"Korubo",
+      "aliases":[
+         " "
+      ],
+      "language":"Pano",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"34",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kotiria",
+      "aliases":[
+         "Wanana "
+      ],
+      "language":"Tukano",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"735",
+            "year":"Dsei/Foirn 2005"
+         },
+         {
+            "localisation":" Colombia ",
+            "pop":"1113",
+            "year":" 1988"
+         }
+      ]
+   },
+   {
+      "name":"Krahô",
+      "aliases":[
+         "Craô",
+         " Kraô",
+         " Timbira",
+         " Mehin"
+      ],
+      "language":"Jê",
+      "populations":[
+         {
+            "localisation":" TO ",
+            "pop":"2992",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Krahô-Kanela",
+      "aliases":[
+         " "
+      ],
+      "language":"Jê",
+      "populations":[
+         {
+            "localisation":" TO ",
+            "pop":"122",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Krenak",
+      "aliases":[
+         "Crenaque",
+         " Crenac",
+         " Krenac",
+         " Botocudos",
+         " Aimorés",
+         " Borum"
+      ],
+      "language":"Krenák",
+      "populations":[
+         {
+            "localisation":" MG, MT, SP ",
+            "pop":"434",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Krenyê",
+      "aliases":[
+         "Timbira "
+      ],
+      "language":"Jê",
+      "populations":[
+         {
+            "localisation":" MA ",
+            "pop":"104",
+            "year":"Nascimento/30 RBA 2016"
+         }
+      ]
+   },
+   {
+      "name":"Krikatí",
+      "aliases":[
+         "Kricati",
+         " Kricatijê",
+         " Põcatêjê",
+         " Timbira",
+         " Kricatijê"
+      ],
+      "language":"Jê",
+      "populations":[
+         {
+            "localisation":" MA ",
+            "pop":"1016",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kubeo",
+      "aliases":[
+         "Cubeo",
+         " Cobewa",
+         " Kubéwa",
+         " Pamíwa "
+      ],
+      "language":"Tukano",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"565",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Colombia ",
+            "pop":"4238",
+            "year":" 1988"
+         },
+         {
+            "localisation":" Venezuela ",
+            "pop":"56",
+            "year":"XIV Censo Nacional de Poblacion y Viviendas 2011"
+         }
+      ]
+   },
+   {
+      "name":"Kuikuro",
+      "aliases":[
+         " Ipatse ótomo",
+         " Ahukugi ótomo",
+         " Lahatuá ótomo"
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"653",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kujubim",
+      "aliases":[
+         " Towa Panka"
+      ],
+      "language":"Txapakura",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"140",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kulina",
+      "aliases":[
+         "Culina",
+         " Madiha"
+      ],
+      "language":"Arawa",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"7211",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Peru ",
+            "pop":"417",
+            "year":"INEI 2007"
+         }
+      ]
+   },
+   {
+      "name":"Kulina Pano",
+      "aliases":[
+         "Culina "
+      ],
+      "language":"Pano",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"156",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kuntanawa",
+      "aliases":[
+         "Kontanawa",
+         " Contanawa "
+      ],
+      "language":"Pano",
+      "populations":[
+         {
+            "localisation":" AC ",
+            "pop":"164",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kuruaya",
+      "aliases":[
+         "Xipáia-Kuruáia",
+         " Kuruaia "
+      ],
+      "language":"Munduruku",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"163",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Kwazá",
+      "aliases":[
+         "Coaiá",
+         " Koaiá "
+      ],
+      "language":"Koazá",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"54",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Macuxi",
+      "aliases":[
+         "Makuxi",
+         " Macushi",
+         " Pemon"
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" RR ",
+            "pop":"33603",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Guiana ",
+            "pop":"9500",
+            "year":"Guiana 2001"
+         },
+         {
+            "localisation":" Venezuela ",
+            "pop":"89",
+            "year":"XIV Censo Nacional de Poblacion y Viviendas 2011"
+         }
+      ]
+   },
+   {
+      "name":"Makuna",
+      "aliases":[
+         "Yeba-masã "
+      ],
+      "language":"Tukano",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"108",
+            "year":"ISA/Foirn, 2017 2017"
+         },
+         {
+            "localisation":" Colombia ",
+            "pop":"528",
+            "year":"Colômbia 1988"
+         }
+      ]
+   },
+   {
+      "name":"Makurap",
+      "aliases":[
+         "Macurap "
+      ],
+      "language":"Tupari",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"579",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Manchineri",
+      "aliases":[
+         "Machineri",
+         " Manxineru",
+         " Yine"
+      ],
+      "language":"Aruak",
+      "populations":[
+         {
+            "localisation":" Bolivia ",
+            "pop":"38",
+            "year":"Censo Nacional de Poblacion y Viviendas 2012"
+         },
+         {
+            "localisation":" AC ",
+            "pop":"1214",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Peru ",
+            "pop":"90",
+            "year":"INEI 2007"
+         }
+      ]
+   },
+   {
+      "name":"Maraguá",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"74",
+            "year":"IBGE 2010"
+         }
+      ]
+   },
+   {
+      "name":"Marubo",
+      "aliases":[
+         " "
+      ],
+      "language":"Pano",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"2008",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Matipu",
+      "aliases":[
+         " "
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"157",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Matis",
+      "aliases":[
+         "Mushabo",
+         " Deshan Mikitbo "
+      ],
+      "language":"Pano",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"457",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Matsés",
+      "aliases":[
+         "Mayoruna "
+      ],
+      "language":"Pano",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"1700",
+            "year":"CTI 2016"
+         },
+         {
+            "localisation":" Peru ",
+            "pop":"2500",
+            "year":"CTI 2016"
+         }
+      ]
+   },
+   {
+      "name":"Maxakali",
+      "aliases":[
+         "Maxacalis",
+         " Monacó",
+         " Kumanuxú",
+         " Tikmuún",
+         " Tikmu´un"
+      ],
+      "language":"Maxakali",
+      "populations":[
+         {
+            "localisation":" MG ",
+            "pop":"2076",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Mebêngôkre Kayapó",
+      "aliases":[
+         "Kaiapó",
+         " Caiapó",
+         " Gorotire",
+         " Mekrãgnoti",
+         " Kuben-Kran-Krên",
+         " Kôkraimôrô",
+         " Metyktire",
+         " Xikrin",
+         " Kararaô",
+         " Mebêngôkre"
+      ],
+      "language":"Jê",
+      "populations":[
+         {
+            "localisation":" MT, PA ",
+            "pop":"11675",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Mehinako",
+      "aliases":[
+         "Meinaco",
+         " Meinacu",
+         " Meinaku "
+      ],
+      "language":"Aruak",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"286",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Menky Manoki",
+      "aliases":[
+         "Munku",
+         " Menku",
+         " Menky Manoki",
+         " Myky"
+      ],
+      "language":"Iranxe",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"117",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Migueleno",
+      "aliases":[
+         "Miqueleno "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"267",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Miranha",
+      "aliases":[
+         "Mirana "
+      ],
+      "language":"Bora",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"1459",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Colombia ",
+            "pop":"445",
+            "year":"Colômbia 1988"
+         }
+      ]
+   },
+   {
+      "name":"Mirity-tapuya",
+      "aliases":[
+         "Buia-tapuya "
+      ],
+      "language":"Tukano",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"88",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Mukurin",
+      "aliases":[
+         "Mokurin "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" MG ",
+            "pop":"",
+            "year":" "
+         }
+      ]
+   },
+   {
+      "name":"Munduruku",
+      "aliases":[
+         "Mundurucu",
+         " Maytapu",
+         " Cara Preta",
+         " Wuyjuyu"
+      ],
+      "language":"Munduruku",
+      "populations":[
+         {
+            "localisation":" AM, PA ",
+            "pop":"13755",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Mura",
+      "aliases":[
+         " "
+      ],
+      "language":"Mura",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"18328",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Nadob",
+      "aliases":[
+         "Macú Nadob; Maku Nadeb",
+         " Nadöb"
+      ],
+      "language":"Makú",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"483",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Nahukuá",
+      "aliases":[
+         "Nafukwá",
+         " Nahkwá",
+         " Nafuquá",
+         " Nahukwá "
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"143",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Nambikwara",
+      "aliases":[
+         "Nambiquara",
+         " Anunsu"
+      ],
+      "language":"Nambikwára",
+      "populations":[
+         {
+            "localisation":" MT, RO ",
+            "pop":"2332",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Naruvotu",
+      "aliases":[
+         " "
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"81",
+            "year":"Fiorini 2003"
+         }
+      ]
+   },
+   {
+      "name":"Nawa",
+      "aliases":[
+         "Náua "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" AC ",
+            "pop":"519",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Nukini",
+      "aliases":[
+         "Nuquini "
+      ],
+      "language":"Pano",
+      "populations":[
+         {
+            "localisation":" AC ",
+            "pop":"622",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Ofaié",
+      "aliases":[
+         "Ofaié-Xavante "
+      ],
+      "language":"Ofayé",
+      "populations":[
+         {
+            "localisation":" MS ",
+            "pop":"69",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Oro Win",
+      "aliases":[
+         "Oro Towati'",
+         " Oroin",
+         " Uruin",
+         " Oro Win",
+         " Oro Towati'"
+      ],
+      "language":"Txapakura",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"88",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Palikur",
+      "aliases":[
+         "Paricuria",
+         " Paricores",
+         " Palincur",
+         " Parikurene",
+         " Parinkur-Iéne",
+         " Païkwené",
+         " Païkwené"
+      ],
+      "language":"Aruak",
+      "populations":[
+         {
+            "localisation":" AP ",
+            "pop":"1712",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Guiana Francesa ",
+            "pop":"720",
+            "year":"Passes 1994"
+         }
+      ]
+   },
+   {
+      "name":"Panará",
+      "aliases":[
+         "Kreen-Akarore",
+         " Krenhakore",
+         " Krenakore",
+         " Índios Gigantes "
+      ],
+      "language":"Jê",
+      "populations":[
+         {
+            "localisation":" MT, PA ",
+            "pop":"542",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Pankaiuká",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" PE ",
+            "pop":"150",
+            "year":"UFPE/NEPE 2011"
+         }
+      ]
+   },
+   {
+      "name":"Pankará",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" PE ",
+            "pop":"2836",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Pankararé",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" BA ",
+            "pop":"1648",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Pankararu",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" MG, PE, SP ",
+            "pop":"8184",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Pankaru",
+      "aliases":[
+         "Pankararu-Salambaia "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" BA ",
+            "pop":"108",
+            "year":"Siasi/Funasa 2010"
+         }
+      ]
+   },
+   {
+      "name":"Parakanã",
+      "aliases":[
+         " Awaeté"
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"1576",
+            "year":"Sesai/Programa Parakanã 2014"
+         }
+      ]
+   },
+   {
+      "name":"Paresí",
+      "aliases":[
+         "Pareci",
+         " Halíti",
+         " Arití "
+      ],
+      "language":"Aruak",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"2138",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Parintintin",
+      "aliases":[
+         "Cabahyba "
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"480",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Patamona",
+      "aliases":[
+         "Ingarikó",
+         " Kapon "
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" RR ",
+            "pop":"198",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Guiana ",
+            "pop":"5500",
+            "year":" 1990"
+         }
+      ]
+   },
+   {
+      "name":"Pataxó",
+      "aliases":[
+         "Patachó",
+         " Patashó",
+         " Pataso "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" BA,MG ",
+            "pop":"12326",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Pataxó Hã-Hã-Hãe",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" BA ",
+            "pop":"2866",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Paumari",
+      "aliases":[
+         " Pamoari"
+      ],
+      "language":"Arawá",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"1804",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Payayá",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" BA ",
+            "pop":"47",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Pipipã",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" PE ",
+            "pop":"1391",
+            "year":"Siasi/Sesai 2013"
+         }
+      ]
+   },
+   {
+      "name":"Pirahã",
+      "aliases":[
+         "Mura Pirahã "
+      ],
+      "language":"Mura",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"592",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Pira-tapuya",
+      "aliases":[
+         "Piratapuya",
+         " Piratapuyo",
+         " Piratuapuia",
+         " Pira-Tapuya "
+      ],
+      "language":"Tukano",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"1325",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Colombia ",
+            "pop":"400",
+            "year":" 1988"
+         }
+      ]
+   },
+   {
+      "name":"Pitaguary",
+      "aliases":[
+         "Potiguara",
+         " Pitaguari"
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" CE ",
+            "pop":"3623",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Potiguara",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" PB, CE, PE, RN ",
+            "pop":"18445",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Puri",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" MG, RJ ",
+            "pop":"675",
+            "year":"IBGE 2010"
+         }
+      ]
+   },
+   {
+      "name":"Puruborá",
+      "aliases":[
+         " "
+      ],
+      "language":"Puruborá",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"243",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Puyanawa",
+      "aliases":[
+         "Poianaua "
+      ],
+      "language":"Pano",
+      "populations":[
+         {
+            "localisation":" AC ",
+            "pop":"745",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Rikbaktsa",
+      "aliases":[
+         "Erigbaktsa",
+         " Canoeiros",
+         " Orelhas de Pau",
+         " Rikbaktsá"
+      ],
+      "language":"Rikbaktsá",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"1514",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Sakurabiat",
+      "aliases":[
+         "Sakiriabar",
+         " Mequéns",
+         " Sakurabiat"
+      ],
+      "language":"Tupari",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"219",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Sapará",
+      "aliases":[
+         " "
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" RR ",
+            "pop":"",
+            "year":" "
+         }
+      ]
+   },
+   {
+      "name":"Sateré Mawé",
+      "aliases":[
+         "Sateré-Maué "
+      ],
+      "language":"Mawé",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"13350",
+            "year":"CGTSM 2014"
+         }
+      ]
+   },
+   {
+      "name":"Shanenawa",
+      "aliases":[
+         "Katukina Shanenawa",
+         " Shanenawa"
+      ],
+      "language":"Pano",
+      "populations":[
+         {
+            "localisation":" AC ",
+            "pop":"763",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Siriano",
+      "aliases":[
+         " "
+      ],
+      "language":"Tukano",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"86",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Colombia ",
+            "pop":"665",
+            "year":" 1988"
+         }
+      ]
+   },
+   {
+      "name":"Surui Paiter",
+      "aliases":[
+         "Paiter",
+         " Paiter"
+      ],
+      "language":"Mondé",
+      "populations":[
+         {
+            "localisation":" MT, RO ",
+            "pop":"1375",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Suruwaha",
+      "aliases":[
+         "Zuruwahã",
+         " Índios do Coxodoá",
+         " Suruwaha"
+      ],
+      "language":"Arawá",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"171",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Tabajara",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" CE, PI ",
+            "pop":"2881",
+            "year":"Siasi/Sesai 2013"
+         }
+      ]
+   },
+   {
+      "name":"Tapajó",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"74",
+            "year":"GT Funai 2008"
+         }
+      ]
+   },
+   {
+      "name":"Tapayuna",
+      "aliases":[
+         "Beiço de pau",
+         " Suyá Novos",
+         " Suyá Ocidentais",
+         " Kajkwakratxi"
+      ],
+      "language":"Jê",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"132",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Tapeba",
+      "aliases":[
+         "Tapebano",
+         " Perna-de-pau "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" CE ",
+            "pop":"6651",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Tapirapé",
+      "aliases":[
+         "Apyãwa",
+         " Apyãwa"
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" MT, TO ",
+            "pop":"760",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Tapuia",
+      "aliases":[
+         "Tapuio",
+         " Tapuya "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" GO, CE, RN ",
+            "pop":"193",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Tariana",
+      "aliases":[
+         " "
+      ],
+      "language":"Aruak",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"2684",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Colombia ",
+            "pop":"205",
+            "year":" 1988"
+         }
+      ]
+   },
+   {
+      "name":"Taurepang",
+      "aliases":[
+         "Taulipang",
+         " Taurepangue",
+         " Taulipangue",
+         " Pemon"
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" RR ",
+            "pop":"792",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Venezuela ",
+            "pop":"27157",
+            "year":"INE 2001"
+         }
+      ]
+   },
+   {
+      "name":"Tembé",
+      "aliases":[
+         " Tenetehara"
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" MA, PA ",
+            "pop":"1879",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Tenharim",
+      "aliases":[
+         " Kagwahiva"
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"828",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Terena",
+      "aliases":[
+         " "
+      ],
+      "language":"Aruak",
+      "populations":[
+         {
+            "localisation":" MS, MT, SP ",
+            "pop":"26065",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Ticuna",
+      "aliases":[
+         "Tikuna",
+         " Tukuna",
+         " Maguta"
+      ],
+      "language":"Tikuna",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"53544",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Colombia ",
+            "pop":"8000",
+            "year":"Goulard, J. P. 2011"
+         },
+         {
+            "localisation":" Peru ",
+            "pop":"6982",
+            "year":"INEI 2007"
+         }
+      ]
+   },
+   {
+      "name":"Tingui Botó",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" AL ",
+            "pop":"396",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Tiriyó",
+      "aliases":[
+         "Tirió",
+         " Trio",
+         " Tarona",
+         " Yawi",
+         " Pianokoto",
+         " Piano",
+         " Wü tarëno",
+         " Txukuyana",
+         " Ewarhuyana",
+         " Akuriyó"
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"1715",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Suriname ",
+            "pop":"1845",
+            "year":"Ellen-Rose Kambel 2006"
+         }
+      ]
+   },
+   {
+      "name":"Torá",
+      "aliases":[
+         " "
+      ],
+      "language":"Txapakura",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"330",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Tremembé",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" CE ",
+            "pop":"3662",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Truká",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" BA, PE ",
+            "pop":"2981",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Trumai",
+      "aliases":[
+         " "
+      ],
+      "language":"Trumái",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"258",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Tsohom-dyapa",
+      "aliases":[
+         "Tsohom-dyapa",
+         "Tukano",
+         " Tukún Djapá",
+         " Tukano Djapá",
+         " Txunhuân Djapá",
+         " Tsunhuam Djapa",
+         " Tyohom-dyapa"
+      ],
+      "language":"Katukina",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"38",
+            "year":"CTI 2016"
+         }
+      ]
+   },
+   {
+      "name":"Tukano",
+      "aliases":[
+         "Ye´pâ-masa",
+         " Dasea "
+      ],
+      "language":"Tukano",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"5731",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Colombia ",
+            "pop":"6330",
+            "year":" 1988"
+         },
+         {
+            "localisation":" Venezuela ",
+            "pop":"29",
+            "year":"XIV Censo Nacional de Poblacion y Viviendas 2011"
+         }
+      ]
+   },
+   {
+      "name":"Tumbalalá",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" BA ",
+            "pop":"1195",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Tunayana",
+      "aliases":[
+         " "
+      ],
+      "language":"Karíb",
+      "populations":[
+         {
+            "localisation":" PA, AM ",
+            "pop":"107",
+            "year":"IBGE 2010"
+         }
+      ]
+   },
+   {
+      "name":"Tupaiú",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"546",
+            "year":"Saúde e Alegria 2014"
+         }
+      ]
+   },
+   {
+      "name":"Tupari",
+      "aliases":[
+         " "
+      ],
+      "language":"Tupari",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"607",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Tupinambá",
+      "aliases":[
+         "Tupinambá "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" BA ",
+            "pop":"4669",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Tupiniquim",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" ES ",
+            "pop":"2901",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Turiwara",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"",
+            "year":" "
+         }
+      ]
+   },
+   {
+      "name":"Tuxá",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" AL, BA, PE ",
+            "pop":"1703",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Tuxi",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" PE ",
+            "pop":"",
+            "year":"Funai , 2019 "
+         }
+      ]
+   },
+   {
+      "name":"Tuyuka",
+      "aliases":[
+         "Tuiuca",
+         " Utapinopona"
+      ],
+      "language":"Tukano",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"1050",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Colombia ",
+            "pop":"570",
+            "year":" 1988"
+         }
+      ]
+   },
+   {
+      "name":"Umutina",
+      "aliases":[
+         "Barbados",
+         " Omotina "
+      ],
+      "language":"Bororo",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"515",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Uru-Eu-Wau-Wau",
+      "aliases":[
+         " Jupaú"
+      ],
+      "language":"Tupi Kawahib",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"123",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Waimiri Atroari",
+      "aliases":[
+         "Kiña",
+         " Uaimiry",
+         " Crichaná",
+         " Kinja"
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" RR, AM ",
+            "pop":"2009",
+            "year":"PWA 2018"
+         }
+      ]
+   },
+   {
+      "name":"Waiwai",
+      "aliases":[
+         " "
+      ],
+      "language":"Karíb",
+      "populations":[
+         {
+            "localisation":" AM, PA, RR ",
+            "pop":"2502",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Guiana ",
+            "pop":"170",
+            "year":"Weparu Alemán 2006"
+         }
+      ]
+   },
+   {
+      "name":"Wajãpi",
+      "aliases":[
+         "Wayapi",
+         " Wajapi",
+         " Oiampi "
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" AP, PA ",
+            "pop":"1221",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Guiana Francesa ",
+            "pop":"950",
+            "year":"Grenand 2009"
+         }
+      ]
+   },
+   {
+      "name":"Wajuru",
+      "aliases":[
+         "Ajujru",
+         " Wayoro "
+      ],
+      "language":"Tupari",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"248",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Wapichana",
+      "aliases":[
+         "Wapixana",
+         " Wapishana "
+      ],
+      "language":"Aruak",
+      "populations":[
+         {
+            "localisation":" RR ",
+            "pop":"9441",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Guiana ",
+            "pop":"6000",
+            "year":"Forte 1990"
+         },
+         {
+            "localisation":" Venezuela ",
+            "pop":"37",
+            "year":"XIV Censo Nacional de Poblacion y Viviendas 2011"
+         }
+      ]
+   },
+   {
+      "name":"Warekena",
+      "aliases":[
+         "Werekena "
+      ],
+      "language":"Aruak",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"1039",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Venezuela ",
+            "pop":"620",
+            "year":"XIV Censo Nacional de Poblacion y Viviendas 2011"
+         }
+      ]
+   },
+   {
+      "name":"Wari'",
+      "aliases":[
+         "Uari",
+         " Wari",
+         " Pakaá Nova "
+      ],
+      "language":"Txapakura",
+      "populations":[
+         {
+            "localisation":" RO ",
+            "pop":"3956",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Wassu",
+      "aliases":[
+         " "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" AL ",
+            "pop":"2014",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Wauja",
+      "aliases":[
+         "Waurá "
+      ],
+      "language":"Aruak",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"540",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Wayana",
+      "aliases":[
+         "Upurui",
+         " Roucouyen",
+         " Orkokoyana",
+         " Urucuiana",
+         " Urukuyana",
+         " Alucuyana",
+         " Wayana"
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"329",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Guiana Francesa ",
+            "pop":"800",
+            "year":"Lopes 2002"
+         },
+         {
+            "localisation":" Suriname ",
+            "pop":"500",
+            "year":"Lopes 2002"
+         }
+      ]
+   },
+   {
+      "name":"Witoto",
+      "aliases":[
+         "Uitoto "
+      ],
+      "language":"Witoto",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"84",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Colombia ",
+            "pop":"5939",
+            "year":" 1988"
+         },
+         {
+            "localisation":" Peru ",
+            "pop":"1864",
+            "year":"INEI 2007"
+         }
+      ]
+   },
+   {
+      "name":"Xakriabá",
+      "aliases":[
+         " "
+      ],
+      "language":"Jê",
+      "populations":[
+         {
+            "localisation":" MG ",
+            "pop":"8867",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Xavante",
+      "aliases":[
+         "Akwe",
+         " A´uwe"
+      ],
+      "language":"Jê",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"18380",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Xerente",
+      "aliases":[
+         "Acuen",
+         " Akwen",
+         " Akwê"
+      ],
+      "language":"Jê",
+      "populations":[
+         {
+            "localisation":" TO ",
+            "pop":"3509",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Xetá",
+      "aliases":[
+         "héta",
+         " chetá",
+         " setá "
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" PR ",
+            "pop":"69",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Xikrin (Mebengôkre)",
+      "aliases":[
+         "Kayapó",
+         " Mebengôkre"
+      ],
+      "language":"Jê",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"1818",
+            "year":"Funasa 2010"
+         }
+      ]
+   },
+   {
+      "name":"Xinane",
+      "aliases":[
+         "Sapanawa",
+         " Chitonawa",
+         " Xatanawa",
+         " Shapanawa",
+         "isolados do Xinane "
+      ],
+      "language":"Pano",
+      "populations":[
+         {
+            "localisation":" ac ",
+            "pop":"35",
+            "year":"Funai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Xipaya",
+      "aliases":[
+         "Xipáya "
+      ],
+      "language":"Juruna",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"173",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Xokleng",
+      "aliases":[
+         "Aweikoma",
+         " Xokrén",
+         " Kaingang de Santa Catarina",
+         " Aweikoma-Kaingang",
+         " Laklanõ"
+      ],
+      "language":"Jê",
+      "populations":[
+         {
+            "localisation":" SC ",
+            "pop":"2020",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Xokó",
+      "aliases":[
+         "Chocó",
+         " Xocó "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" SE ",
+            "pop":"340",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Xukuru",
+      "aliases":[
+         "Xucuru "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" PE ",
+            "pop":"2720",
+            "year":"Siasi/Sesai 2013"
+         }
+      ]
+   },
+   {
+      "name":"Xukuru-Kariri",
+      "aliases":[
+         "Xucuru "
+      ],
+      "language":"",
+      "populations":[
+         {
+            "localisation":" AL, BA ",
+            "pop":"1471",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Yaminawá",
+      "aliases":[
+         "Iaminaua",
+         " Jaminawa "
+      ],
+      "language":"Pano",
+      "populations":[
+         {
+            "localisation":" Bolivia ",
+            "pop":"630",
+            "year":" 1997"
+         },
+         {
+            "localisation":" AC ",
+            "pop":"1454",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Peru ",
+            "pop":"600",
+            "year":"INEI 2007"
+         }
+      ]
+   },
+   {
+      "name":"Yanomami",
+      "aliases":[
+         "Yanoama",
+         " Yanomani",
+         " Ianomami "
+      ],
+      "language":"Yanomami",
+      "populations":[
+         {
+            "localisation":" AM/RR ",
+            "pop":"26780",
+            "year":"Sesai/DSEI Yanomami 2019"
+         },
+         {
+            "localisation":" Venezuela ",
+            "pop":"11341",
+            "year":"INE 2011"
+         }
+      ]
+   },
+   {
+      "name":"Yawalapiti",
+      "aliases":[
+         " "
+      ],
+      "language":"Aruak",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"262",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Yawanawá",
+      "aliases":[
+         "Iauanaua "
+      ],
+      "language":"Pano",
+      "populations":[
+         {
+            "localisation":" Bolivia ",
+            "pop":"132",
+            "year":"Censo Nacional de Poblacion y Viviendas 2012"
+         },
+         {
+            "localisation":" AC ",
+            "pop":"831",
+            "year":"Siasi/Sesai 2014"
+         },
+         {
+            "localisation":" Peru ",
+            "pop":"324",
+            "year":" 1993"
+         }
+      ]
+   },
+   {
+      "name":"Ye'kwana",
+      "aliases":[
+         "Yecuana",
+         " Ye'kuana",
+         " Maiongong",
+         " So'to"
+      ],
+      "language":"Karib",
+      "populations":[
+         {
+            "localisation":" RR ",
+            "pop":"593",
+            "year":"Siasi/Sesai 2015"
+         },
+         {
+            "localisation":" Venezuela ",
+            "pop":"7997",
+            "year":"INE 2011"
+         }
+      ]
+   },
+   {
+      "name":"Yudja",
+      "aliases":[
+         "Yuruna",
+         " Juruna",
+         " Yudja"
+      ],
+      "language":"Juruna",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"880",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   },
+   {
+      "name":"Yuhupde",
+      "aliases":[
+         "Macu; Maku Yuhúp",
+         " Yuhupde",
+         " Yuhupdëh"
+      ],
+      "language":"Makú",
+      "populations":[
+         {
+            "localisation":" AM ",
+            "pop":"754",
+            "year":"Silva:2010:3 2010"
+         },
+         {
+            "localisation":" Colombia ",
+            "pop":"250",
+            "year":"Mahecha et al. 2000: 195 2000"
+         }
+      ]
+   },
+   {
+      "name":"Zo'é",
+      "aliases":[
+         "Poturu "
+      ],
+      "language":"Tupi-Guarani",
+      "populations":[
+         {
+            "localisation":" PA ",
+            "pop":"295",
+            "year":"Frente Etnoambiental Cuminapanema/Funai 2016"
+         }
+      ]
+   },
+   {
+      "name":"Zoró",
+      "aliases":[
+         "Pangyjej "
+      ],
+      "language":"Mondé",
+      "populations":[
+         {
+            "localisation":" MT ",
+            "pop":"711",
+            "year":"Siasi/Sesai 2014"
+         }
+      ]
+   }
+]

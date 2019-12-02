@@ -15,22 +15,18 @@
                     voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 <div id="legend">
                     <div
-                        v-for="(title, i) in titles"
-                        :key="'title'+ i"
-                        class="items">
+                        v-for="(threat, i) in threats"
+                        :key="'threat'+ i"
+                        class="items"
+                        @click="openModal(threat)">
                         <div class="points">
-                            <span>{{ title.number }}</span>
+                            <span>{{ threat.icon }}</span>
                         </div>
-                        <p>{{ title.label }}</p>
+                        <p>{{ threat.label }}</p>
                     </div>
                 </div>
             </div>
         </div>
-        <Map
-            :show.sync="show"
-            :properties.sync="properties"
-        >
-        </Map>
         <Modal
             :show.sync="show"
             :properties="properties"
@@ -41,33 +37,40 @@
 
 <script>
 
-    import Map from "./components/Map";
     import Modal from "./components/Modal";
 
     export default {
         name: 'app',
         components: {
-            Map,
             Modal
         },
         data: () => ({
-            titles: [
+            threats: [
                 {
-                    number: 1,
-                    label: 'Deforestation'
+                    icon: 1,
+                    label: 'Deforestation',
+                    name: 'deforestation'
                 },
                 {
-                    number: 2,
-                    label: 'Mortality'
+                    icon: 2,
+                    label: 'Mortalité',
+                    name: 'mortality'
                 },
                 {
-                    number: 3,
-                    label: 'Politics'
+                    icon: 3,
+                    label: 'Politique',
+                    name: 'politic'
                 },
             ],
             show: false,
             properties: null,
         }),
+        methods: {
+            openModal (threat) {
+                this.show = true;
+                this.properties = threat;
+            }
+        }
     }
 </script>
 
@@ -94,20 +97,21 @@
         #container {
             height: 100vh;
             width: 100vw;
-            padding: 0 10rem 0 10rem;
+            padding: 0 8rem 0 8rem;
             #header {
-                margin-top: 6rem;
+                margin-top: 4rem;
                 display: flex;
                 justify-content: space-between;
                 img {
                     position: absolute;
-                    top: 210px;
-                    left: 220px;
+                    top: 170px;
+                    left: 180px;
                     width: 240px;
                 }
                 h1 {
-                    font-size: 52px;
+                    font-size: 50px;
                     z-index: 4;
+                    margin-top: 0px;
                 }
                 a {
                     font-size: 24px;
@@ -117,13 +121,13 @@
                 margin-left: 30px;
                 #description {
                     font-family: Merriweather;
-                    font-size: 14px;
+                    font-size: 13px;
                     width: 420px;
                     margin-top: 30px;
                     line-height: 28px;
                 }
                 #legend {
-                    margin-top: 7rem;
+                    margin-top: 6rem;
                     .items {
                         font-size: 24px;
                         display: flex;

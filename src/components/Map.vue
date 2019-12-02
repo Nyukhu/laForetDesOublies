@@ -9,7 +9,7 @@
     export default {
         name: "Map",
         mounted() {
-            this.drawMap();
+            // this.drawMap();
         },
         methods: {
 
@@ -19,8 +19,8 @@
                 const path = d3.geoPath();
 
                 const projection = d3.geoConicConformal()
-                    .center([-48, 10])
-                    .scale(1400)
+                    .center([-45, 10])
+                    .scale(1300)
                     .translate([widthMap, heightMap /2.5]);
                 path.projection(projection);
 
