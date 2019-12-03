@@ -1,6 +1,5 @@
 <template>
-    <div id="map">
-    </div>
+    <div id="map" />
 </template>
 
 <script>
@@ -9,7 +8,7 @@
     export default {
         name: "Map",
         mounted() {
-            // this.drawMap();
+            this.drawMap();
         },
         methods: {
 
@@ -19,7 +18,7 @@
                 const path = d3.geoPath();
 
                 const projection = d3.geoConicConformal()
-                    .center([-45, 10])
+                    .center([-40, 10])
                     .scale(1300)
                     .translate([widthMap, heightMap /2.5]);
                 path.projection(projection);
@@ -49,7 +48,6 @@
                     .attr("height", "100%")
                     .attr("patternUnits", "userSpaceOnUse")
                     .append("svg:image")
-                    .attr("xlink:href","datas/png/fond_arbre.jpg")
                     .attr("width", "100%")
                     .attr("height", "100%")
                     .attr("x", 0)
@@ -67,21 +65,21 @@
                         .attr("d", path)
                         .attr("stroke", "white");
 
-                    let self = this
-                    points.selectAll("path")
-                        .data(datas[1].features)
-                        .enter()
-                        .append("path")
-                        .attr('class', 'points')
-                        .attr("fill", "#D57B00")
-                        .attr("stroke", "none")
-                        .style("cursor", "pointer")
-                        .style("z-index", 10)
-                        .attr("d", path)
-                        .on("click", (d) => {
-                            self.$emit('update:show', true);
-                            self.$emit('update:properties', d.properties);
-                        });
+                    // let self = this
+                    // points.selectAll("path")
+                    //     .data(datas[1].features)
+                    //     .enter()
+                    //     .append("path")
+                    //     .attr('class', 'points')
+                    //     .attr("fill", "#D57B00")
+                    //     .attr("stroke", "none")
+                    //     .style("cursor", "pointer")
+                    //     .style("z-index", 10)
+                    //     .attr("d", path)
+                    //     .on("click", (d) => {
+                    //         self.$emit('update:show', true);
+                    //         self.$emit('update:properties', d.properties);
+                    //     });
                 });
             },
         }

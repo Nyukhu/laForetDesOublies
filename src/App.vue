@@ -5,25 +5,19 @@
                 <img
                     src="@/assets/images/brush.png"
                     alt="brush">
-                <h1>Amazon tribes<br> matters.</h1>
-                <a>About us.</a>
+                <h1>LA FORÊT DES<br> OUBLIÉS.</h1>
+                <a>À propos</a>
             </div>
-            <div id="content">
-                <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                <div id="legend">
-                    <div
-                        v-for="(threat, i) in threats"
-                        :key="'threat'+ i"
-                        class="items"
-                        @click="openModal(threat)">
-                        <div class="points">
-                            <span>{{ threat.icon }}</span>
-                        </div>
-                        <p>{{ threat.label }}</p>
+            <div id="legend">
+                <div
+                    v-for="(threat, i) in threats"
+                    :key="'threat'+ i"
+                    class="items"
+                    @click="openModal(threat)">
+                    <div class="points">
+                        <span>{{ threat.icon }}</span>
                     </div>
+                    <p>{{ threat.label.toUpperCase() }}</p>
                 </div>
             </div>
         </div>
@@ -48,7 +42,7 @@
             threats: [
                 {
                     icon: 1,
-                    label: 'Deforestation',
+                    label: 'Déforestation',
                     name: 'deforestation',
                     chart: 'deforestation'
                 },
@@ -60,9 +54,9 @@
                 },
                 {
                     icon: 3,
-                    label: 'Politique',
-                    name: 'politic',
-                    chart: 'politic'
+                    label: 'Protection des terres',
+                    name: 'areas',
+                    chart: 'areas'
                 },
             ],
             show: false,
@@ -93,9 +87,9 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        background: url("assets/images/background.png") no-repeat top right fixed;
+        background: url("assets/images/background.png") black no-repeat top right fixed;
         background-size: cover;
-        font-family: cunia;
+        font-family: Ubuntu;
         color: #D7E3D2;
         #container {
             height: 100vh;
@@ -120,38 +114,31 @@
                     font-size: 24px;
                 }
             }
-            #content {
-                margin-left: 30px;
-                #description {
-                    font-family: Merriweather;
-                    font-size: 13px;
-                    width: 420px;
-                    margin-top: 30px;
-                    line-height: 28px;
-                }
-                #legend {
-                    margin-top: 6rem;
-                    .items {
-                        font-size: 24px;
+            #legend {
+                font-family: Ubuntu;
+                font-style: italic;
+                font-weight: 300;
+                margin-top: 9rem;
+                .items {
+                    font-size: 24px;
+                    display: flex;
+                    flex-direction: row;
+                    margin-bottom: 60px;
+                    p {
+                        font-size: 22px;
+                    }
+                    .points {
+                        font-family: Merriweather;
+                        border: 2px solid white;
+                        width: 55px;
+                        height: 55px;
+                        border-radius: 50%;
                         display: flex;
-                        flex-direction: row;
-                        margin-bottom: 60px;
-                        p {
-                            font-size: 22px;
-                        }
-                        .points {
-                            font-family: Merriweather;
-                            border: 2px solid white;
-                            width: 55px;
-                            height: 55px;
-                            border-radius: 50%;
+                        margin-right: 30px;
+                        margin-top: 6px;
+                        span {
                             display: flex;
-                            margin-right: 30px;
-                            margin-top: 6px;
-                            span {
-                                display: flex;
-                                margin: auto;
-                            }
+                            margin: auto;
                         }
                     }
                 }

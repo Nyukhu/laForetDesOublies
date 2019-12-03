@@ -1,5 +1,6 @@
 <template>
-   <div id="bar-chart" />
+   <div>
+   </div>
 </template>
 
 <script>
@@ -8,7 +9,8 @@
     export default {
         name: "BarChart",
        props: {
-           name: {type: String}
+           name: {type: String},
+           number: {type: Number}
        },
         mounted() {
             this.draw();
@@ -26,24 +28,22 @@
                 const y = d3.scaleLinear()
                     .range([height, 0]);
 
-                const svg = d3.select("#bar-chart").append("svg")
+                const svg = d3.select("#bar-chart" + this.number).append("svg")
                     .attr("id", "svg")
                     .attr("width", width + margin.left + margin.right)
                     .attr("height", height + margin.top + margin.bottom)
                     .append("g")
                     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-                const div = d3.select("body").append("div")
-                    .attr("class", "tooltip")
-                    .style("opacity", 0);
+                let self = this;
+               d3.json("datas/json/" + this.name +".json").then(function(data) {
+                  x.domain(data.map(function(d) { return d.axe1; }));
+                  y.domain([0, d3.max(data, function(d) {
+                     let axe;
+                     self.name !== 'deforestation2' ? axe = d.axe2 : axe = d.axe1;
+                     return axe;
+                  })]);
 
-               d3.json("datas/json/" + this.name +".json").then(function(data){
-                  data.forEach(function(d) {
-                     d.population = +d.population;
-                  });
-
-                  x.domain(data.map(function(d) { return d.country; }));
-                  y.domain([0, d3.max(data, function(d) { return d.population; })]);
 
                   svg.append("g")
                           .attr("transform", "translate(0," + height + ")")
@@ -60,18 +60,20 @@
                           .data(data)
                           .enter().append("rect")
                           .attr("class", "bar")
-                          .attr("x", function(d) { return x(d.country); })
+                          .attr("x",(d) => { return x(d.axe1); })
                           .attr("width", x.bandwidth())
-                          .attr("y", function(d) { return y(d.population); })
-                          .attr("height", function(d) { return height - y(d.population); })
-                          .on("mouseover", function(d) {
-                             div.transition()
-                                     .duration(200)
-                                     .style("opacity", .9);
-                             div.html("Population : " + d.population)
-                                     .style("left", (d3.event.pageX + 10) + "px")
-                                     .style("top", (d3.event.pageY - 50) + "px");
+                          .attr("y", (d) => {
+                             let axe;
+                             self.name !== 'deforestation2' ? axe = d.axe2 : axe = d.axe1;
+                             return y(axe);
                           })
+                          .attr("height", (d) => {
+                             let axe;
+                             self.name !== 'deforestation2' ? axe = d.axe2 : axe = d.axe1;
+                             return height - y(axe)
+                          })
+                          .style("fill", "white")
+                         ;
                });
             }
         }
