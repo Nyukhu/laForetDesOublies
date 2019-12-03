@@ -4,22 +4,7 @@
         v-show="show"
         id="modal"
     >
-        <div id="content">
-            <h1> {{ properties.label }}</h1>
-            <div id="chart-container">
-                <template v-if="properties.name === 'deforestation'">
-                    <bar-chart :name="properties.chart" />
-                </template>
-                <template v-else-if="properties.name === 'mortality'">
-                    <bar-chart :name="properties.charts[0]" />
-                    <pie-chart :name="properties.charts[1]" />
-                </template>
-                <template v-else>
-                    <line-chart :name="properties.name" />
-                </template>
-
-            </div>
-        </div>
+        <p>{{ properties.title }}</p>
     </div>
 </template>
 
@@ -44,7 +29,7 @@
                 let app = document.querySelector('#app');
                 let self = this;
                 app.addEventListener('click', (event) => {
-                    if (event.target.id !== 'modal' && !event.target.classList.contains('items') && !event.target.parentNode.classList.contains('items')) {
+                    if (event.target.id !== 'modal' && !event.target.classList.contains('items') && !event.target.classList.contains('points') &&  !event.target.parentNode.classList.contains('items')) {
                         if (self.show) {
                             self.$emit('update:show', false)
                         }
