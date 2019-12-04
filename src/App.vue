@@ -1,35 +1,7 @@
 <template>
     <div id="app">
         <div id="container">
-            <div class="menu">
-                <div id="header">
-                    <img
-                        src="@/assets/images/brush.png"
-                        alt="brush">
-                    <h1>Amazon tribes<br> matters.</h1>
-                    <a>About us.</a>
-                </div>
-                <div id="content">
-                    <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                    <div id="legend">
-                        <div
-                            v-for="(threat, i) in threats"
-                            :key="'threat'+ i"
-                            class="items"
-                            @click="openModal(threat)"
-                            @mouseenter="onEnter(threat.name)"
-                            @mouseleave="onLeave()">
-                            <div class="points">
-                                <span>{{ threat.icon }}</span>
-                            </div>
-                            <p>{{ threat.label }}</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           
             <Map 
                 :show.sync="show" 
                 :properties.sync="properties" 
