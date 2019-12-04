@@ -9,6 +9,7 @@
                 :is="currentComponent"
                 :properties="properties"></component>
         </div>
+        <p>{{ properties.name }}</p>
     </div>
 </template>
 
@@ -40,7 +41,7 @@
                 let app = document.querySelector('#app');
                 let self = this;
                 app.addEventListener('click', (event) => {
-                    if (event.target.id !== 'modal' && !event.target.classList.contains('items') && !event.target.parentNode.classList.contains('items')) {
+                    if (event.target.id !== 'modal' && !event.target.classList.contains('items') && !event.target.classList.contains('points') &&  !event.target.parentNode.classList.contains('items')) {
                         if (self.show) {
                             self.$emit('update:show', false)
                         }

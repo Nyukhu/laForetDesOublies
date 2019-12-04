@@ -20,6 +20,11 @@
                     <p>{{ threat.label.toUpperCase() }}</p>
                 </div>
             </div>
+            <Map 
+                :show.sync="show" 
+                :properties.sync="properties" 
+                :hovered="hovered"
+                class="map" ></Map>
         </div>
         <Modal
             :show.sync="show"
@@ -32,11 +37,13 @@
 <script>
 
     import Modal from "./components/Modal";
+    import Map from "./components/Map";
 
     export default {
         name: 'app',
         components: {
-            Modal
+            Modal,
+            Map
         },
         data: () => ({
             threats: [
@@ -59,14 +66,27 @@
                     chart: 'areas'
                 },
             ],
+            hovered:"",
             show: false,
             properties: null,
         }),
+        watch: {
+            show (val) {
+                console.log(val)
+            }
+        },
         methods: {
             openModal (threat) {
                 this.show = true;
                 this.properties = threat;
+            },
+            onEnter (name) {
+                this.hovered = name
+            },
+            onLeave () {
+                this.hovered = "";
             }
+
         }
     }
 </script>
@@ -94,7 +114,11 @@
         #container {
             height: 100vh;
             width: 100vw;
+            justify-content: center;
+            align-items: center;
             padding: 0 8rem 0 8rem;
+            display: flex;
+            flex-direction: row;
             #header {
                 margin-top: 4rem;
                 display: flex;
@@ -144,5 +168,14 @@
                 }
             }
         }
+    }
+
+    .menu{
+        width: 30%;
+    }
+    .map{
+        width: 70%;
+        height: 70%;
+        flex-grow: 1;
     }
 </style>
