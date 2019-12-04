@@ -3,7 +3,8 @@
         <div id="dark-bg" />
         <div
             id="first-part"
-            :style="{ backgroundImage: 'url(' + require('../../assets/images/parts/first/' + this.properties.name + '/background.png') + ')' }">
+            :style="{ backgroundImage: 'url(' + require('../../assets/images/parts/first/' + this.properties.name + '/background.jpg') + ')' }"
+            style="background-size: cover;">
             <div id="content">
                 <div id="tribu">
                     <p>TRIBU {{ payload.tribu.name }}</p>
@@ -32,10 +33,34 @@
                             src="../../assets/images/brush.png" />
                         <p>{{ payload.chart.description }}</p>
                     </div>
-                    <bar-chart
-                        :id="'bar-chart' + id"
-                        :number="id"
-                        :name="properties.chart"></bar-chart>
+                    <template v-if="properties.name === 'deforestation'">
+                        <bar-chart
+                            :number="id"
+                            :name="properties.chart"
+                            class="charts"></bar-chart>
+                    </template>
+                    <div
+                        v-else
+                        id="chart-legend">
+                        <div id="legend">
+                            <ul>
+                                <li
+                                    class="legend-line"
+                                    v-for="(legend, i) of pieLegend"
+                                    :key="'legend' + i">
+                                    <div
+                                        id="block-color"
+                                        :style="'background-color:' + legend.color "></div>
+                                    <span style="font-weight: bold">{{ legend.legend }}</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <pie-chart
+                            :name="properties.chart"
+                            :colors="getColors('pie')"
+                            class="charts"
+                            ></pie-chart>
+                    </div>
                 </div>
             </div>
         </div>
@@ -44,20 +69,60 @@
 
 <script>
     import BarChart from "../charts/BarChart";
+    import PieChart from "../charts/PieChart";
 
     export default {
         name: "FirstPart",
-        components: {BarChart},
+        components: {
+            BarChart,
+            PieChart
+        },
         props: {
             payload: {type: Object},
             properties: {type: Object},
             id: {type: Number},
         },
+        data: () => ({
+            charts: [
+                {
+                    type: 'pie',
+                    colors: ["#EC6B05", "#FFFFFF", "#C0CCBC", "#92A590", "#3F493E"],
+                    legends: ["Abus de pouvoir et Discrimination", "Tentatives de meurtres", "Menaces", "Lésions corporels volontaire et violences sexuelles", "Homicides involontaires"]
+                }
+            ],
+        }),
         computed: {
             pathImage () {
-                return require("../../assets/images/parts/first/" + this.properties.name +  "/image.png");
-            }
+                return require("../../assets/images/parts/first/" + this.properties.name +  "/image.jpg");
+            },
+
+            pieLegend () {
+                let colors = this.getColors('pie');
+                let legends = this.getLegends('pie');
+                let finalLegend = [];
+
+                for (let i=0; i<colors.length; i++) {
+                    let obj = {
+                        color: colors[i],
+                        legend: legends[i],
+                    };
+                    finalLegend.push(obj)
+                }
+
+                return finalLegend
+            },
         },
+        methods: {
+            getColors (type) {
+                return this.charts.filter(chart => chart.type === type)[0].colors
+            },
+
+            getLegends (type) {
+                return this.charts.filter(chart => chart.type === type)[0].legends
+            },
+
+
+        }
     }
 </script>
 
@@ -162,11 +227,31 @@
                         top: 65px;
                     }
                 }
-                #bar-chart1 {
+                #chart-legend {
+                    display: flex;
+                    flex-direction: row;
+                    #legend {
+                        .legend-line {
+                            display: flex;
+                            flex-direction: row;
+                        }
+                        li {
+                            list-style-type: none;
+                            margin-bottom: 25px;
+                        }
+                        #block-color {
+                            height: 15px;
+                            width: 15px;
+                            margin-right: 15px;
+                        }
+                    }
+                }
+                .charts {
                     display: flex;
                     justify-content: flex-end;
-                    margin-top: 4rem;
+                    margin: 4rem 0;
                 }
+
             }
         }
     }

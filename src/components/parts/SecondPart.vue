@@ -40,6 +40,7 @@
         display: flex;
         flex-direction: column;
         background: url("../../assets/images/parts/second/background.png") top center no-repeat;
+        background-size: cover;
         object-fit: cover;
         height: 1400px;
         #content {

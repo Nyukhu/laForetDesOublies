@@ -9,8 +9,6 @@
                 :is="currentComponent"
                 :properties="properties"></component>
         </div>
-        <p>{{ properties.name }}</p>
-        <p>{{ properties.name }}</p>
     </div>
 </template>
 

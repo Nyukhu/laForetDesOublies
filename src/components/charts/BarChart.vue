@@ -1,5 +1,5 @@
 <template>
-   <div>
+   <div :id="'bar-chart' + number">
    </div>
 </template>
 

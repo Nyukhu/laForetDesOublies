@@ -9,7 +9,7 @@
     export default {
         name: "Map",
         mounted() {
-            this.drawMap();
+            // this.drawMap();
         },
         methods: {
             drawMap() {
