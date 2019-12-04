@@ -40,7 +40,7 @@
                             class="charts"></bar-chart>
                     </template>
                     <div
-                        v-else
+                        v-else-if="properties.component === 'mortality'"
                         id="chart-legend">
                         <div id="legend">
                             <ul>
