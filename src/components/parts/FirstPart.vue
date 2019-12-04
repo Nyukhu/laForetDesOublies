@@ -36,7 +36,7 @@
                     <template v-if="properties.component === 'deforestation'">
                         <bar-chart
                             :number="id"
-                            :name="properties.chart"
+                            :name="properties.component"
                             class="charts"></bar-chart>
                     </template>
                     <div
@@ -51,11 +51,15 @@
                                     <div
                                         id="block-color"
                                         :style="'background-color:' + legend.color "></div>
-                                    <span style="font-weight: bold">{{ legend.legend }}</span>
+                                    <span
+                                        :id="'legend-line' + i"
+                                        class="lines"
+                                        style="font-weight: bold">{{ legend.legend }}</span>
                                 </li>
                             </ul>
                         </div>
                         <pie-chart
+                            :hovered.sync="hovered"
                             :name="properties.chart"
                             :colors="getColors('pie')"
                             class="charts"
@@ -86,10 +90,11 @@
             charts: [
                 {
                     type: 'pie',
-                    colors: ["#EC6B05", "#FFFFFF", "#C0CCBC", "#92A590", "#3F493E"],
+                    colors: ["#161916", "#FFFFFF", "#C0CCBC", "#92A590", "#3F493E"],
                     legends: ["Abus de pouvoir et Discrimination", "Tentatives de meurtres", "Menaces", "Lésions corporels volontaire et violences sexuelles", "Homicides involontaires"]
                 }
             ],
+            hovered: null,
         }),
         computed: {
             pathImage () {
@@ -111,6 +116,26 @@
 
                 return finalLegend
             },
+        },
+        watch: {
+            hovered (val) {
+                let lines = document.querySelectorAll('.lines')
+                if (val !== null) {
+                    for (let line of lines) {
+                        let length = line.id.length
+                        let lastC = line.id.charAt(length-1)
+                        if (parseInt(lastC) !== val) {
+                            line.style.opacity = 0.3
+                        } else {
+                            line.style.opacity = 1
+                        }
+                    }
+                } else {
+                    for (let line of lines) {
+                        line.style.opacity = 1
+                    }
+                }
+            }
         },
         methods: {
             getColors (type) {
@@ -230,6 +255,7 @@
                 #chart-legend {
                     display: flex;
                     flex-direction: row;
+                    margin-top: 80px;
                     #legend {
                         .legend-line {
                             display: flex;

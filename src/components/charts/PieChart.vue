@@ -46,19 +46,38 @@
                     .append("g")
                     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
+                let self = this
                 let g = svg.selectAll(".arc")
                     .data(pie(data))
                     .enter().append("g")
-                    .attr("class", "arc");
+                    .attr("class", "arc")
+                    .on("mouseenter", (d) => {
+                        self.$emit('update:hovered', d.index)
+                    })
+                    .on("mouseleave", () => {
+                        self.$emit('update:hovered', null)
+                    })
+                ;
 
                 g.append("path")
                     .attr("d", arc)
-                    .style("fill", function(d) { return color(d.data); });
+                    .style("fill", function(d) { return color(d.data); })
+                    .on("mouseenter", () => {
+                        d3.select(this).style("fill", "red");
+                    })
+                    .on("mouseleave", () => {
+                        self.$emit('update:hovered', null)
+                    })
+                ;
 
                 g.append("text")
                     .attr("transform", function(d) { return "translate(" + labelArc.centroid(d) + ")"; })
-                    .attr("dy", ".35em")
-                    .text(function(d) { return d.data; });
+                    .style("font-size", "18px")
+                    .style("font-weight", "bold")
+                    .attr("dy", ".3em")
+                    .attr("dx", "-10")
+                    .text(function(d) { return d.data + '%'; })
+                ;
             }
         }
     }

@@ -35,6 +35,7 @@
                     .style("stroke", "white");
                 const amazonia = svg.append("g");
                 const points = svg.append("g");
+
                 var defs = svg.append('svg:defs');
                 defs.append("svg:pattern")
                     .attr("id", "fond_card")
@@ -45,6 +46,7 @@
                     .attr("xlink:href","datas/png/fond_arbre.jpg")
                     .attr("x", 0)
                     .attr("y", 0);
+
                 Promise.all([
                     d3.json("/datas/json/amazonia.json"),
                     d3.json("/datas/json/points.json"),

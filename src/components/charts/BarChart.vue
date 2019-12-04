@@ -51,6 +51,37 @@
                      return axe;
                   })]);
 
+                  var testDefs = svg.append("defs");
+
+                  var gradient = testDefs.append("linearGradient")
+                          .attr("id", "svgGradient")
+                          .attr("x1", "0%")
+                          .attr("x2", "100%")
+                          .attr("y1", "0%")
+                          .attr("y2", "100%");
+
+                  gradient.append("stop")
+                          .attr('class', 'start')
+                          .attr("offset", "0%")
+                          .attr("stop-color", "#EC6B05")
+                          .attr("stop-opacity", 1);
+
+                  gradient.append("stop")
+                          .attr('class', 'end')
+                          .attr("offset", "100%")
+                          .attr("stop-color", "#BD2C1A")
+                          .attr("stop-opacity", 1);
+
+                  var defs = svg.append('svg:defs');
+                  defs.append("svg:pattern")
+                          .attr("id", "fond_card")
+                          .attr("width", 1000)
+                          .attr("height", 1000)
+                          .attr("patternUnits", "userSpaceOnUse")
+                          .append("svg:image")
+                          .attr("xlink:href","datas/png/fond_arbre.jpg")
+                          .attr("x", 0)
+                          .attr("y", 0);
 
                   svg.append("g")
                           .attr("transform", "translate(0," + height + ")")
@@ -61,14 +92,36 @@
                           .attr("dy", ".15em")
                           .attr("transform", "rotate(-65)");
 
+                  if (self.name === 'deforestation2') {
+                     svg.append('text')
+                             .attr('x', -300)
+                             .attr('y', -360)
+                             .attr('text-anchor', 'middle')
+                             .style("fill", "white")
+                             .text('Areas (km²)')
+                             .attr("transform", "rotate(180)");
+                  }
+
+
                   svg.append("g").call(d3.axisLeft(y).ticks(6));
 
                   svg.selectAll(".bar")
                           .data(data)
                           .enter().append("rect")
                           .attr("class", "bar")
+                          .text(function(d) { return "test" })
                           .attr("x",(d) => { return x(d.axe1); })
-                          .attr("width", x.bandwidth())
+                          .attr("width", () => {
+                             if (self.name.includes('mortality')) {
+                                return 125
+                             } else {
+                                if (self.name === 'deforestation') {
+                                   return 40
+                                } else {
+                                   return 50
+                                }
+                             }
+                          })
                           .attr("y", (d) => {
                              let axe;
                              self.name !== 'deforestation2' ? axe = d.axe2 : axe = d.axe1;
@@ -79,8 +132,20 @@
                              self.name !== 'deforestation2' ? axe = d.axe2 : axe = d.axe1;
                              return height - y(axe)
                           })
-                          .style("fill", "white")
-                         ;
+                          .style("fill", (d) => {
+                             if (self.name.includes('mortality')) {
+                                if (d.axe1 === 'Année 2018') {
+                                   return "url(#svgGradient)"
+                                }
+                             }
+                             return "white"
+                          }).append("text")
+                          .attr("class", "below")
+                          .attr("x", 12)
+                          .attr("dy", "1.2em")
+                          .attr("text-anchor", "left")
+                          .text(function(d) { return d.axe1; })
+                          .style("fill", "black");
                });
             }
         }
@@ -91,4 +156,11 @@
     scoped
     lang="scss">
 
+   .stop-left {
+      stop-color: #3f51b5;  /* Indigo */
+   }
+
+   .stop-right {
+      stop-color: #009688;  /* Teal */
+   }
 </style>

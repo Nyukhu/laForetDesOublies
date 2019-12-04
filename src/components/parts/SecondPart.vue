@@ -34,7 +34,10 @@
                                 v-for="(legend, i) of legends"
                                 :key="'legend' + i"
                                 @click="selectedLegend = legend">
-                                <span style="font-weight: bold">{{ legend.title }}</span>
+                                <span
+                                    :id="'line'+ i"
+                                    class="BarLegendlines"
+                                    style="font-weight: bold">{{ legend.title }}</span>
                             </li>
                         </ul>
                     </div>
@@ -58,23 +61,48 @@
         data: () => ({
             legends: [
                 {
+                    id: 0,
                     title: "Meurtres",
                     data: "mortality2"
                 },
                 {
+                    id: 1,
                     title: "Suicides",
                     data: "mortality3"
                 },
                 {
+                    id: 2,
                     title: "Mortalité infantile",
                     data: "mortality4"
                 },
             ],
             selectedLegend: {
+                id: 0,
                 title: "Meurtres",
                 data: "mortality2"
             },
         }),
+        watch: {
+            selectedLegend (val) {
+                let lines = document.querySelectorAll('.BarLegendlines')
+                let line = document.querySelector('#line' + val.id)
+                for (let l of lines) {
+                    if (l !== line) {
+                        l.style.opacity = 0.3
+                    }
+                }
+                line.style.opacity = 1
+            }
+        },
+        mounted() {
+            let line = document.querySelector('#line' + this.selectedLegend.id)
+            let lines = document.querySelectorAll('.BarLegendlines')
+            for (let l of lines) {
+                if (l !== line) {
+                    l.style.opacity = 0.3
+                }
+            }
+        }
     }
 </script>
 
