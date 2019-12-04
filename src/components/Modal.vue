@@ -4,7 +4,7 @@
         v-show="show"
         id="modal"
     >
-        <p>{{ properties.title }}</p>
+        <p>{{ properties.name }}</p>
     </div>
 </template>
 
