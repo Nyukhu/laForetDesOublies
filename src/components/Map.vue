@@ -110,11 +110,14 @@
 
                             console.log(d.properties.name)
                             let points = document.querySelectorAll('.points')
-                            points.forEach((point) => {
+                            if (thisEl.classList.contains("danger")) {
+                                points.forEach((point) => {
                                 if(!point.classList.contains('danger') && d.properties.name == "Kawahiva do Rio Pardo"){
                                     point.style.fill = '#9c764c'
                                 }
                             })
+                            }
+                            
                             
                             let terres = document.querySelectorAll('.terres');
                             if (d.properties.name == "Yanomami") {
@@ -150,9 +153,11 @@
                             let preshow = document.querySelector('.preshow');
                             preshow.style.display = "none";
 
+                            
+
                             let points = document.querySelectorAll('.points')
                             points.forEach((point) => {
-                                    if(!point.classList.contains('danger') && d.properties.name == "Kawahiva do Rio Pardo"){
+                                    if(!point.classList.contains('danger')){
                                         point.style.fill = '#00000000'
                                     }
                                 })
