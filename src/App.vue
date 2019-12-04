@@ -1,18 +1,17 @@
 <template>
     <div id="app">
         <div id="container">
-           
-            <Map 
-                :show.sync="show" 
-                :properties.sync="properties" 
+            <Map
+                :show.sync="show"
+                :properties.sync="properties"
                 :hovered="hovered"
-                class="map" ></Map>
+                class="map"></Map>
+            <Modal
+                :show="show"
+                :properties="properties"
+            >
+            </Modal>
         </div>
-        <Modal
-            :show.sync="show"
-            :properties="properties"
-        >
-        </Modal>
     </div>
 </template>
 
@@ -63,7 +62,6 @@
             onLeave () {
                 this.hovered = "";
             }
-
         }
     }
 </script>

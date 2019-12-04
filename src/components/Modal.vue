@@ -29,7 +29,7 @@
         },
         computed: {
             currentComponent () {
-                return this.properties.name.charAt(0).toUpperCase() + this.properties.name.slice(1)
+                return this.properties.component.charAt(0).toUpperCase() + this.properties.component.slice(1)
             },
         },
         mounted () {
@@ -63,6 +63,6 @@
         width: 100vw;
         background-color: grey;
         z-index: 5;
-        top: 40px;
+        top: 100vh;
     }
 </style>

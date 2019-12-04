@@ -1,7 +1,7 @@
 <template>
     <div
         id="second-part"
-        :style="{ backgroundImage: 'url(' + require('../../assets/images/parts/second/' + this.properties.name + '/background.jpg') + ')' }"
+        :style="{ backgroundImage: 'url(' + require('../../assets/images/parts/second/' + this.properties.component + '/background.jpg') + ')' }"
         style="background-size: cover;">
         <div id="content">
             <div id="chart">
@@ -13,7 +13,7 @@
                     <p>{{ payload.description }}</p>
                 </div>
                 <div
-                    v-if="properties.name === 'deforestation'"
+                    v-if="properties.component === 'deforestation'"
                     id="horizontal-chart">
                     <bar-chart
                         :id="'bar-chart' + id"

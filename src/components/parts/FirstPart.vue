@@ -3,7 +3,7 @@
         <div id="dark-bg" />
         <div
             id="first-part"
-            :style="{ backgroundImage: 'url(' + require('../../assets/images/parts/first/' + this.properties.name + '/background.jpg') + ')' }"
+            :style="{ backgroundImage: 'url(' + require('../../assets/images/parts/first/' + this.properties.component + '/background.jpg') + ')' }"
             style="background-size: cover;">
             <div id="content">
                 <div id="tribu">
@@ -33,7 +33,7 @@
                             src="../../assets/images/brush.png" />
                         <p>{{ payload.chart.description }}</p>
                     </div>
-                    <template v-if="properties.name === 'deforestation'">
+                    <template v-if="properties.component === 'deforestation'">
                         <bar-chart
                             :number="id"
                             :name="properties.chart"
@@ -93,7 +93,7 @@
         }),
         computed: {
             pathImage () {
-                return require("../../assets/images/parts/first/" + this.properties.name +  "/image.jpg");
+                return require("../../assets/images/parts/first/" + this.properties.component +  "/image.jpg");
             },
 
             pieLegend () {

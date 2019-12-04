@@ -642,7 +642,8 @@
        },
        "properties":{
           "title":"danger",
-          "name":"Awá"
+          "name":"Awá",
+          "component": "deforestation"
        }
     },
     {
@@ -8272,7 +8273,8 @@
        },
        "properties":{
           "title":"danger",
-          "name":"Kawahiva do Rio Pardo"
+          "name":"Kawahiva do Rio Pardo",
+          "component": "mortality"
        }
     },
     {

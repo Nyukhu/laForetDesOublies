@@ -9,14 +9,12 @@
     export default {
         name: "Map",
         mounted() {
-            // this.drawMap();
+            this.drawMap();
         },
         methods: {
             drawMap() {
                 const widthMap = innerWidth;
                 const heightMap = innerHeight;
-                const screenWidth = window.innerWidth;
-                const screenHeight = window.innerHeight;
                 const path = d3.geoPath();
                 const projection = d3.geoConicConformal()
                     .center([-45, 10])
@@ -40,8 +38,8 @@
                 var defs = svg.append('svg:defs');
                 defs.append("svg:pattern")
                     .attr("id", "fond_card")
-                    .attr("width", 100)
-                    .attr("height", 100)
+                    .attr("width", 1000)
+                    .attr("height", 1000)
                     .attr("patternUnits", "userSpaceOnUse")
                     .append("svg:image")
                     .attr("xlink:href","datas/png/fond_arbre.jpg")
@@ -121,9 +119,17 @@
                             
                         })
                         .on("click", (d) => {
-                            console.log()
                             self.$emit('update:show', true);
                             self.$emit('update:properties', d.properties);
+                            if (d.properties.hasOwnProperty('component')) {
+                                setTimeout(() => {
+                                    window.scroll({
+                                        top: 950,
+                                        left: 0,
+                                        behavior: 'smooth'
+                                    });
+                                }, 300)
+                            }
                         });
                 });
             },
