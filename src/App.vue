@@ -31,7 +31,7 @@
             threats: [
                 {
                     icon: 1,
-                    label: 'Deforestation',
+                    label: 'Déforestation',
                     name: 'deforestation',
                     chart: 'deforestation'
                 },
@@ -39,24 +39,19 @@
                     icon: 2,
                     label: 'Mortalité',
                     name: 'mortality',
-                    charts: ['deforestation', 'mortality']
+                    chart: 'mortality'
                 },
                 {
                     icon: 3,
-                    label: 'Politique',
-                    name: 'politic',
-                    chart: 'politic'
+                    label: 'Protection des terres',
+                    name: 'areas',
+                    chart: 'areas'
                 },
             ],
             hovered:"",
             show: false,
             properties: null,
         }),
-        watch: {
-            show (val) {
-                console.log(val)
-            }
-        },
         methods: {
             openModal (threat) {
                 this.show = true;
@@ -89,9 +84,9 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        background: url("assets/images/background.png") no-repeat top right fixed;
+        background: url("assets/images/background.png") black no-repeat top right fixed;
         background-size: cover;
-        font-family: cunia;
+        font-family: Ubuntu;
         color: #D7E3D2;
         #container {
             height: 100vh;
@@ -120,38 +115,31 @@
                     font-size: 24px;
                 }
             }
-            #content {
-                margin-left: 30px;
-                #description {
-                    font-family: Merriweather;
-                    font-size: 13px;
-                    width: 420px;
-                    margin-top: 30px;
-                    line-height: 28px;
-                }
-                #legend {
-                    margin-top: 6rem;
-                    .items {
-                        font-size: 24px;
+            #legend {
+                font-family: Ubuntu;
+                font-style: italic;
+                font-weight: 300;
+                margin-top: 9rem;
+                .items {
+                    font-size: 24px;
+                    display: flex;
+                    flex-direction: row;
+                    margin-bottom: 60px;
+                    p {
+                        font-size: 22px;
+                    }
+                    .points {
+                        font-family: Merriweather;
+                        border: 2px solid white;
+                        width: 55px;
+                        height: 55px;
+                        border-radius: 50%;
                         display: flex;
-                        flex-direction: row;
-                        margin-bottom: 60px;
-                        p {
-                            font-size: 22px;
-                        }
-                        .points {
-                            font-family: Merriweather;
-                            border: 2px solid white;
-                            width: 55px;
-                            height: 55px;
-                            border-radius: 50%;
+                        margin-right: 30px;
+                        margin-top: 6px;
+                        span {
                             display: flex;
-                            margin-right: 30px;
-                            margin-top: 6px;
-                            span {
-                                display: flex;
-                                margin: auto;
-                            }
+                            margin: auto;
                         }
                     }
                 }

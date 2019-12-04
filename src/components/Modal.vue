@@ -4,25 +4,36 @@
         v-show="show"
         id="modal"
     >
-        <p>{{ properties.name }}</p>
+        <div id="content">
+            <component
+                :is="currentComponent"
+                :properties="properties"></component>
+        </div>
     </div>
 </template>
 
 <script>
 
-    import PieChart from "./charts/PieChart";
-    import BarChart from "./charts/BarChart";
-    import LineChart from "./charts/LineChart";
+    import Deforestation from "./pop-up/Deforestation";
+    import Mortality from "./pop-up/Mortality";
 
     export default {
         name: "Modal",
-        components: {LineChart, PieChart, BarChart},
+        components: {
+            Deforestation,
+            Mortality
+        },
         props: {
             show: { type: Boolean },
             properties: { type: Object },
         },
+        computed: {
+            currentComponent () {
+                return this.properties.name.charAt(0).toUpperCase() + this.properties.name.slice(1)
+            },
+        },
         mounted () {
-            this.clickOutside();
+            // this.clickOutside();
         },
         methods: {
             clickOutside () {
@@ -49,12 +60,9 @@
         display: flex;
         flex-direction: column;
         margin: auto;
-        height: 80vh;
-        width: 80vw;
+        width: 100vw;
         background-color: grey;
         z-index: 5;
-        #content {
-            padding: 2rem 4rem;
-        }
+        top: 40px;
     }
 </style>

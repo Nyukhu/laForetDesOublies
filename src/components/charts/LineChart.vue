@@ -34,10 +34,7 @@
                     .append("g")
                     .attr("transform","translate(" + margin.left + "," + margin.top + ")");
 
-                d3.csv("datas/json/" + name + ".csv").then(function(data) {
-                    // eslint-disable-next-line no-console
-                    console.log(data);
-
+                d3.csv("datas/json/politic.csv").then(function(data) {
                     data.forEach(function(d) {
                         d.date = parseTime(d.date);
                         d.close = +d.close;
