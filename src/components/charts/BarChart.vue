@@ -15,6 +15,13 @@
         mounted() {
             this.draw();
         },
+       watch: {
+           name () {
+              let barChart = document.querySelector('#bar-chart3');
+              barChart.innerHTML = '';
+              this.draw();
+           }
+       },
         methods: {
             draw () {
                 const margin = {top: 20, right: 20, bottom: 90, left: 120};
@@ -35,7 +42,7 @@
                     .append("g")
                     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-                let self = this;
+               let self = this;
                d3.json("datas/json/" + this.name +".json").then(function(data) {
                   x.domain(data.map(function(d) { return d.axe1; }));
                   y.domain([0, d3.max(data, function(d) {

@@ -1,19 +1,43 @@
 <template>
-    <div id="second-part">
+    <div
+        id="second-part"
+        :style="{ backgroundImage: 'url(' + require('../../assets/images/parts/second/' + this.properties.name + '/background.jpg') + ')' }"
+        style="background-size: cover;">
         <div id="content">
             <div id="chart">
                 <div id="chart-description">
-                    <h2>LES TERRES INDIGÈNES LES PLUS TOUCHÉES <br> PAR LA DÉFORESTATION</h2>
+                    <h2 v-html="payload.title"></h2>
                     <img
                         id="brush"
                         src="../../assets/images/brush.png" />
-                    <p>La tribu des Awà est la quatrième tribu la plus touchée par la déforestation sur la période 2008 à 2019.. </p>
+                    <p>{{ payload.description }}</p>
                 </div>
-                <div id="horizontal-chart">
+                <div
+                    v-if="properties.name === 'deforestation'"
+                    id="horizontal-chart">
                     <bar-chart
                         :id="'bar-chart' + id"
                         :number="id"
                         :name="'deforestation2'"></bar-chart>
+                </div>
+                <div
+                    v-else
+                    id="chart-legend">
+                    <bar-chart
+                        :id="'bar-chart' + id"
+                        :number="id"
+                        :name="selectedLegend.data"></bar-chart>
+                    <div id="legend">
+                        <ul>
+                            <li
+                                class="legend-line"
+                                v-for="(legend, i) of legends"
+                                :key="'legend' + i"
+                                @click="selectedLegend = legend">
+                                <span style="font-weight: bold">{{ legend.title }}</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -27,9 +51,30 @@
         name: "SecondPart",
         components: {BarChart},
         props: {
+            payload: {type: Object},
             properties: {type: Object},
             id: {type: Number}
-        }
+        },
+        data: () => ({
+            legends: [
+                {
+                    title: "Meurtres",
+                    data: "mortality2"
+                },
+                {
+                    title: "Suicides",
+                    data: "mortality3"
+                },
+                {
+                    title: "Mortalité infantile",
+                    data: "mortality4"
+                },
+            ],
+            selectedLegend: {
+                title: "Meurtres",
+                data: "mortality2"
+            },
+        }),
     }
 </script>
 
@@ -39,7 +84,7 @@
     #second-part {
         display: flex;
         flex-direction: column;
-        background: url("../../assets/images/parts/second/background.png") top center no-repeat;
+        background: url("../../assets/images/parts/second/deforestation/background.jpg") top center no-repeat;
         background-size: cover;
         object-fit: cover;
         height: 1400px;
@@ -80,6 +125,25 @@
                         justify-content: flex-end;
                         margin-top: 4rem;
                         margin-left: -160px;
+                    }
+                }
+                #chart-legend {
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 120px;
+                    #legend {
+                        .legend-line {
+                            display: flex;
+                            flex-direction: row;
+                        }
+                        li {
+                            margin-bottom: 25px;
+                        }
+                        #block-color {
+                            height: 15px;
+                            width: 15px;
+                            margin-right: 15px;
+                        }
                     }
                 }
             }

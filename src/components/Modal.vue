@@ -33,7 +33,7 @@
             },
         },
         mounted () {
-            this.clickOutside();
+            // this.clickOutside();
         },
         methods: {
             clickOutside () {

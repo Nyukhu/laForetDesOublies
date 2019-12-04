@@ -131,7 +131,7 @@
     lang="scss">
     #dark-bg {
         background-color: black;
-        opacity: 0.6;
+        opacity: 0.8;
         z-index: 1;
         height: 100%;
         width: 100%;

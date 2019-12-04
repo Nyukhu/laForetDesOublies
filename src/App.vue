@@ -57,7 +57,7 @@
                     icon: 2,
                     label: 'Mortalité',
                     name: 'mortality',
-                    charts: ['deforestation', 'mortality']
+                    chart: 'mortality'
                 },
                 {
                     icon: 3,
@@ -70,11 +70,6 @@
             show: false,
             properties: null,
         }),
-        watch: {
-            show (val) {
-                console.log(val)
-            }
-        },
         methods: {
             openModal (threat) {
                 this.show = true;
