@@ -34,6 +34,7 @@
                     .style("fill", "url(#fond_card)")
                     .style("stroke", "white");
                 const amazonia = svg.append("g");
+                const terres = svg.append("g");
                 const points = svg.append("g");
                 var defs = svg.append('svg:defs');
                 defs.append("svg:pattern")
@@ -47,6 +48,7 @@
                     .attr("y", 0);
                 Promise.all([
                     d3.json("/datas/json/amazonia.json"),
+                    d3.json("/datas/json/indigeneous_territories.json"),
                     d3.json("/datas/json/points.json"),
                 ]).then((datas) => {
                     amazonia.selectAll("path")
@@ -63,13 +65,28 @@
                             return "grey"
                         }
                     })
+                    terres.selectAll("path")
+                        .data(datas[1].features)
+                        .enter()
+                        .append("path")
+                        .attr('class', 'terres')
+                        .attr("d", path)
+                        .attr("fill", "#00000000")
+                        .attr("stroke", "none")
                         
                     let self = this
                     points.selectAll("path")
-                        .data(datas[1].features)
+                        .data(datas[2].features)
                         .enter()
                         .append("circle")
-                        .attr('class', 'points')
+                        .attr('class', function (d) { 
+                            if(d.properties.title == "danger"){
+                                return "points danger"
+                            }
+                            else{
+                                return "points" 
+                            }
+                        })
                         .attr('id',function (d) { return d.properties.name.split(' ').join('+')})
                         .attr("cx", function (d) { console.log(projection(d.geometry.coordinates)); return projection(d.geometry.coordinates)[0]; })
                         .attr("cy", function (d) { return projection(d.geometry.coordinates)[1]; })
@@ -83,13 +100,31 @@
                             if(d.properties.title == "danger")
                                 return "#e08422"
                             else
-                                return "#9c764c"
+                                return "#00000000"
                           })
                         .attr("stroke", "none")
                         .on("mouseenter", (d) => {
                             let thisEl = document.getElementById(d.properties.name.split(' ').join('+'))
                             thisEl.style.fill = "white"
                             let preshow = document.querySelector('.preshow');
+
+                            console.log(d.properties.name)
+                            let points = document.querySelectorAll('.points')
+                            points.forEach((point) => {
+                                if(!point.classList.contains('danger') && d.properties.name == "Kawahiva do Rio Pardo"){
+                                    point.style.fill = '#9c764c'
+                                }
+                            })
+                            
+                            let terres = document.querySelectorAll('.terres');
+                            if (d.properties.name == "Yanomami") {
+                                terres.forEach((terre) => {
+                                    terre.style.fill = "#ffffff45"
+                                })
+                            }
+
+                            //console.log(points)
+
 
                             let y = thisEl.getBoundingClientRect().y;
                             let x = thisEl.getBoundingClientRect().x;
@@ -103,8 +138,6 @@
                             preshow.style.top = thisEl.getBoundingClientRect().y - 50 + "px";
                             preshow.style.left = thisEl.getBoundingClientRect().x - 100 +"px";
                             preshow.innerHTML = d.properties.name
-                            
-
 
                         })
                         .on("mouseleave", (d) => {
@@ -116,7 +149,20 @@
                                  thisEl.style.fill = "#9c764c"
                             let preshow = document.querySelector('.preshow');
                             preshow.style.display = "none";
+
+                            let points = document.querySelectorAll('.points')
+                            points.forEach((point) => {
+                                    if(!point.classList.contains('danger') && d.properties.name == "Kawahiva do Rio Pardo"){
+                                        point.style.fill = '#00000000'
+                                    }
+                                })
                             
+                            let terres = document.querySelectorAll('.terres');
+                            if (d.properties.name == "Yanomami") {
+                                terres.forEach((terre) => {
+                                    terre.style.fill = "#00000000"
+                                })
+                            }
                         })
                         .on("click", (d) => {
                             self.$emit('update:show', true);
@@ -179,4 +225,8 @@
     .danger :hover{
        fill: red;
     }
+    .points{
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    }
+
 </style>
