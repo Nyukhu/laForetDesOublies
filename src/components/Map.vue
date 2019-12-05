@@ -31,13 +31,47 @@
                     .attr("stroke-width", 1)
                     //.attr("style", "transform: rotate(-35deg);")
                     .attr("style", "position: absolute; top: 0; left:0")
-                    .style("fill", "url(#fond_card)")
+                    //.style("fill", "url(#fond_card)")
                     .style("stroke", "white");
                 const amazonia = svg.append("g");
                 const terres = svg.append("g");
                 const points = svg.append("g");
 
                 var defs = svg.append('svg:defs');
+
+                var gradient = defs.append("linearGradient")
+                        .attr("id", "svgPointGradient")
+                        .attr("x1", "0%")
+                        .attr("x2", "100%")
+                        .attr("y1", "0%")
+                        .attr("y2", "100%");
+
+                         gradient.append("stop")
+                          .attr('class', 'start')
+                          .attr("offset", "0%")
+                          .attr("stop-color", "#EC6B05")
+                          .attr("stop-opacity", 1);
+
+                        gradient.append("stop")
+                                .attr('class', 'end')
+                                .attr("offset", "100%")
+                                .attr("stop-color", "#BD2C1A")
+                                .attr("stop-opacity", 1);
+
+                var filter = defs.append("filter")
+                    .attr("id","glow");
+
+                filter.append("feGaussianBlur")
+                    .attr("stdDeviation","3.5")
+                    .attr("result","coloredBlur");
+
+                var feMerge = filter.append("feMerge");
+                feMerge.append("feMergeNode")
+                    .attr("in","coloredBlur");
+
+                feMerge.append("feMergeNode")
+                    .attr("in","SourceGraphic");
+
                 defs.append("svg:pattern")
                     .attr("id", "fond_card")
                     .attr("width", 1000)
@@ -96,14 +130,15 @@
                             if(d.properties.title == "danger")
                                 return "10px"
                             else
-                                return "3px"
+                                return "2px"
                           })
                         .attr("fill", function(d){
                             if(d.properties.title == "danger")
-                                return "#e08422"
+                                return "url(#svgPointGradient)"
                             else
                                 return "#00000000"
                           })
+                        .style("filter", "url(#glow)")
                         .attr("stroke", "none")
                         .on("mouseenter", (d) => {
                             let thisEl = document.getElementById(d.properties.name.split(' ').join('+'))
@@ -115,7 +150,7 @@
                             if (thisEl.classList.contains("danger")) {
                                 points.forEach((point) => {
                                 if(!point.classList.contains('danger') && d.properties.name == "Kawahiva do Rio Pardo"){
-                                    point.style.fill = '#9c764c'
+                                    point.style.fill = 'url(#svgPointGradient)'
                                 }
                             })
                             }
