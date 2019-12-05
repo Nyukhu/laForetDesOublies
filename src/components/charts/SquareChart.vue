@@ -23,7 +23,7 @@
         methods: {
             draw () {
                 let request = new XMLHttpRequest();
-                request.open("GET", "../../datas/json/areas.json", false);
+                request.open("GET", "datas/json/areas.json", false);
                 request.send(null);
                 let datas = JSON.parse(request.responseText);
 

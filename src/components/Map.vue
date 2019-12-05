@@ -83,9 +83,9 @@
                     .attr("y", 0);
 
                 Promise.all([
-                    d3.json("/datas/json/amazonia.json"),
-                    d3.json("/datas/json/indigeneous_territories.json"),
-                    d3.json("/datas/json/points.json"),
+                    d3.json("datas/json/amazonia.json"),
+                    d3.json("datas/json/indigeneous_territories.json"),
+                    d3.json("datas/json/points.json"),
                 ]).then((datas) => {
                     amazonia.selectAll("path")
                         .data(datas[0].features)

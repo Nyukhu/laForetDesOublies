@@ -17,7 +17,7 @@
         methods: {
             draw () {
                 let request = new XMLHttpRequest();
-                request.open("GET", "../../datas/json/mortality.json", false);
+                request.open("GET", "datas/json/mortality.json", false);
                 request.send(null);
                 let data = JSON.parse(request.responseText);
                 let augmentation = 10
