@@ -4,6 +4,17 @@
             <a
                 id="about-link"
                 @click="openAbout()">À propos</a>
+            <div id="header">
+                <img
+                    src="@/assets/images/brush.png"
+                    alt="brush">
+                <h1>LA FORET <br> DES OUBLIÉS</h1>
+
+                <p>
+                    Explorez différents thèmes pour en apprendre davantage sur les menaces qui pèsent sur les tribus indigènes.
+                </p>
+                
+            </div>
             <Map
                 :show.sync="show"
                 :properties.sync="properties"
@@ -93,25 +104,7 @@
             padding: 0 8rem 0 8rem;
             display: flex;
             flex-direction: row;
-            #header {
-                margin-top: 4rem;
-                display: flex;
-                justify-content: space-between;
-                img {
-                    position: absolute;
-                    top: 170px;
-                    left: 180px;
-                    width: 240px;
-                }
-                h1 {
-                    font-size: 50px;
-                    z-index: 4;
-                    margin-top: 0px;
-                }
-                a {
-                    font-size: 24px;
-                }
-            }
+            
             #legend {
                 font-family: Ubuntu;
                 font-style: italic;
@@ -149,6 +142,32 @@
                 left: 80%;
                 opacity: 0.7;
             }
+        }
+    }
+    #header {
+        position: absolute;
+        z-index: 20;
+        top:12vh;
+        left: 5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        img {
+            position: absolute;
+            top: 80px;
+            left: 150px;
+            width: 220px;
+        }
+        h1 {
+            font-size: 50px;
+            z-index: 4;
+            margin-top: 0px;
+        }
+        a {
+            font-size: 24px;
+        }
+        p{
+            width: 20vw;
         }
     }
 
