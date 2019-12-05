@@ -1,6 +1,10 @@
 <template>
     <div id="map">
-        <div class="preshow"></div>
+        <div class="preshow">
+             <img
+                src="@/assets/images/brush.png"
+                alt="brush">
+        </div>
     </div>
 </template>
 
@@ -80,11 +84,12 @@
 
                 defs.append("svg:pattern")
                     .attr("id", "fond_card")
-                    .attr("width", 1000)
-                    .attr("height", 1000)
+                    .attr("width", 3000)
+                    .attr("height", 3000)
                     .attr("patternUnits", "userSpaceOnUse")
                     .append("svg:image")
-                    .attr("xlink:href","datas/png/fond_carte.png")
+                    .attr("xlink:href","fond_carte.png")
+                    .attr("opacity",0.4)
                     .attr("x", 0)
                     .attr("y", 0);
                 let self = this
@@ -105,6 +110,14 @@
                         }
                         else{
                             return "#ffffff40"
+                        }
+                    })
+                    .attr("opacity",function(d){
+                        if(d.properties.name == "Amazônia"){
+                            return "1"
+                        }
+                        else{
+                            return "1"
                         }
                     })
                     terres.selectAll("path")
@@ -144,12 +157,11 @@
                             else
                                 return "#00000000"
                           })
-                        .style("filter", "url(#glow)")
                         .style("cursor", "pointer")
+                        //.style("filter", "url(#glow)")  
                         .attr("stroke", "none")
                         .on("mouseenter", (d) => {
                             let thisEl = document.getElementById(d.properties.name.split(' ').join('+'))
-                            thisEl.style.fill = "white"
                             let preshow = document.querySelector('.preshow');
 
                             let points = document.querySelectorAll('.points')
@@ -173,7 +185,7 @@
                                 terres.forEach((terre) => {
                                      d3.select(terre).transition()
                                         .duration(200)
-                                        .style("fill", "#edebd850")
+                                        .style("fill", "#edebd820")
                                         .style("filter", "none");
                                 })
                             }
@@ -185,14 +197,19 @@
                             let x = thisEl.getBoundingClientRect().x;
 
                             if (thisEl.classList.contains("danger") || this.clicked.includes("tribes")) {
-                                preshow.style.top = thisEl.getBoundingClientRect().y - 45 + "px";
-                                preshow.style.left = thisEl.getBoundingClientRect().x - 100 +"px";
+                                thisEl.style.fill = "white"
+                                preshow.style.top = thisEl.getBoundingClientRect().y - 5 + "px";
+                                preshow.style.left = thisEl.getBoundingClientRect().x - 210 +"px";
                                 preshow.style.opacity = 0.1
                                 preshow.style.display = "flex";
                                 preshow.style.opacity = 1.0
-                                preshow.style.top = thisEl.getBoundingClientRect().y - 50 + "px";
-                                preshow.style.left = thisEl.getBoundingClientRect().x - 100 +"px";
-                                preshow.innerHTML = d.properties.name + "<br>"+ d.properties.theme
+                                preshow.style.fontSize = "12px";
+                                preshow.style.top = thisEl.getBoundingClientRect().y - 0 + "px";
+                                preshow.style.left = thisEl.getBoundingClientRect().x - 210 +"px";
+                                preshow.innerHTML ="<h1>" + d.properties.name + "</h1>";
+                                if (thisEl.classList.contains("danger")) {
+                                    preshow.innerHTML += "<p>" + d.properties.theme + "<p>";
+                                }
                                 
                             }
 
@@ -201,7 +218,7 @@
                             let thisEl = document.getElementById(d.properties.name.split(' ').join('+'))
                              if(d.properties.title == "danger")
                                 thisEl.style.fill = "url(#svgPointGradient)"
-                            else
+                            else if(self.clicked.includes("tribes"))
                                  thisEl.style.fill = "#cd482f"
                             let preshow = document.querySelector('.preshow');
 
@@ -283,18 +300,38 @@
     }
     .preshow{
         display: none;
-        padding: 2px;
+        padding: 5px;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         background-color: black;
         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-        width: 100px;
+        width: 200px;
         position: absolute;
         z-index: 80;
         color: white;
         transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+        h1{
+            font-size: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            font-size: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
-    
+    img {
+            position: static;
+            top: 0px;
+            left: 0px;
+            width: 220px;
+        }
     
 
 </style>
