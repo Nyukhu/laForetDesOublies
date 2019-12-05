@@ -287,6 +287,7 @@
                     flex-direction: row;
                     margin-top: 120px;
                     .legend {
+                        cursor: pointer;
                         .legend-line {
                             display: flex;
                             flex-direction: row;

@@ -8,12 +8,10 @@
                 <img
                     src="@/assets/images/brush.png"
                     alt="brush">
-                <h1>LA FORET <br> DES OUBLIÉS</h1>
-
+                <h1>LA FORÊT <br> DES OUBLIÉS</h1>
                 <p>
                     Explorez différents thèmes pour en apprendre davantage sur les menaces qui pèsent sur les tribus indigènes.
                 </p>
-                
             </div>
             <Map
                 :show.sync="show"
@@ -33,6 +31,7 @@
 
     import Modal from "./components/Modal";
     import Map from "./components/Map";
+    import EventBus from './tools/event-bus';
 
     export default {
         name: 'app',
@@ -47,20 +46,17 @@
         }),
         methods: {
             openAbout() {
-                console.log("ok")
                 this.properties = {
                     "title":"A propos",
                     "name":"about",
                     "component": "about"
                 };
                 this.show = true;
-                setTimeout(() => {
-                    window.scroll({
-                        top: 950,
-                        left: 0,
+                this.$nextTick(() => {
+                    document.querySelector('#about').scrollIntoView({
                         behavior: 'smooth'
                     });
-                }, 300)
+                })
             },
             openModal (threat) {
                 this.show = true;
@@ -72,6 +68,15 @@
             onLeave () {
                 this.hovered = "";
             }
+        },
+        mounted() {
+            EventBus.$on("test", () => {
+                this.$nextTick(() => {
+                    document.querySelector('#tribu').scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                })
+            })
         }
     }
 </script>
@@ -138,8 +143,8 @@
                 z-index: 32;
                 cursor: pointer;
                 position: absolute;
-                top: 60px;
-                left: 80%;
+                top:12vh;
+                left: 90vw;
                 opacity: 0.7;
             }
         }

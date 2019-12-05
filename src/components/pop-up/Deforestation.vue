@@ -33,16 +33,16 @@
                     explications: {
                         quote: '« Si vous détruisez la forêt, <br> vous nous détruisez aussi. »',
                         signature: '- Blade , un Awà',
-                        description: 'Avec une superficie de six millions de kilomètres carrés, la forêt amazonienne est la plus grande zone de forêt ancienne tropicale de la planète. Véritable trésor de biodiversité, elle est pillée et ravagée de plus en plus chaque année.'
+                        description: 'Avec une superficie de six millions de kilomètres carrés, la forêt amazonienne est la plus grande zone tropicale de la planète. Véritable trésor de biodiversité, elle est pillée et ravagée de plus en plus chaque année.'
                     },
                     chart: {
                         title: 'ÉVOLUTION DE LA DÉFORESTATION <br> DES TERRES INDIGÈNES',
-                        description: 'Les terres indigènes sont de plus en plus menacées par la déforestation. En 2019, plus de 386,9 km2 de ces terres ont été ravagées.'
+                        description: 'Les terres indigènes sont de plus en plus menacées par la déforestation. En 2019, plus de 386,9 km² de ces terres ont été ravagées.'
                     }
                 },
                 second: {
                     title: 'LES TERRES INDIGÈNES LES PLUS TOUCHÉES <br> PAR LA DÉFORESTATION',
-                    description: 'La tribu des Awà est la quatrième tribu la plus touchée par la déforestation sur la période 2008 à 2019..'
+                    description: 'La tribu des Awà est la quatrième tribu la plus touchée par la déforestation sur la période 2008 à 2019.'
                 }
             }
         }),

@@ -6,6 +6,9 @@
 
 <script>
     import * as d3 from "d3";
+    import Vue from "vue";
+    import EventBus from '../tools/event-bus';
+
     export default {
         name: "Map",
         mounted() {
@@ -34,7 +37,7 @@
                     .attr("stroke-width", 0.7)
                     //.attr("style", "transform: rotate(-35deg);")
                     .attr("style", "position: absolute; top: 0; left:0")
-                    .style("fill", "url(#fond_carte)")
+                    .style("fill", "url(#fond_card)")
                     .style("stroke", "white");
                 const amazonia = svg.append("g");
                 const terres = svg.append("g");
@@ -81,7 +84,7 @@
                     .attr("height", 1000)
                     .attr("patternUnits", "userSpaceOnUse")
                     .append("svg:image")
-                    .attr("xlink:href","datas/png/fond_arbre.jpg")
+                    .attr("xlink:href","datas/png/fond_carte.png")
                     .attr("x", 0)
                     .attr("y", 0);
                 let self = this
@@ -127,7 +130,7 @@
                             }
                         })
                         .attr('id',function (d) { return d.properties.name.split(' ').join('+')})
-                        .attr("cx", function (d) { console.log(projection(d.geometry.coordinates)); return projection(d.geometry.coordinates)[0]; })
+                        .attr("cx", function (d) { return projection(d.geometry.coordinates)[0]; })
                         .attr("cy", function (d) { return projection(d.geometry.coordinates)[1]; })
                         .attr("r", function(d){
                             if(d.properties.title == "danger")
@@ -142,13 +145,13 @@
                                 return "#00000000"
                           })
                         .style("filter", "url(#glow)")
+                        .style("cursor", "pointer")
                         .attr("stroke", "none")
                         .on("mouseenter", (d) => {
                             let thisEl = document.getElementById(d.properties.name.split(' ').join('+'))
                             thisEl.style.fill = "white"
                             let preshow = document.querySelector('.preshow');
 
-                            console.log(d.properties.name)
                             let points = document.querySelectorAll('.points')
                             if (thisEl.classList.contains("danger")) {
                                 points.forEach((point) => {
@@ -196,7 +199,6 @@
                         })
                         .on("mouseleave", (d) => {
                             let thisEl = document.getElementById(d.properties.name.split(' ').join('+'))
-                            console.log("exited",thisEl)
                              if(d.properties.title == "danger")
                                 thisEl.style.fill = "url(#svgPointGradient)"
                             else
@@ -241,13 +243,7 @@
                             }
 
                             if (d.properties.hasOwnProperty('component')) {
-                                setTimeout(() => {
-                                    window.scroll({
-                                        top: 950,
-                                        left: 0,
-                                        behavior: 'smooth'
-                                    });
-                                }, 300)
+                                EventBus.$emit("test", "ok");
                             }
                         });
                 });

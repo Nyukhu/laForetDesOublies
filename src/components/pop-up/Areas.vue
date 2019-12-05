@@ -43,7 +43,7 @@
                     explications: {
                         quote: '« Notre terre doit être respectée. <br> Elle est notre héritage : un <br> héritage qui nous protège. »',
                         signature: '- Davi Kopenawa, un Yanomami',
-                        description : 'Les Yanomami constituent le plus grand peuple relativement isolée en Amérique du Sud. Ils vivent dans la forêt tropicale et les montagnes situées au nord du Brésil. Aujourd’hui, les Yanomami peinent à survivre car le gouvernement ne les protège pas des éleveurs  qui envahissent et rasent les forêts de leur territoire.'
+                        description : 'Les Yanomami constituent le plus grand peuple relativement isolé en Amérique du Sud. Ils vivent dans la forêt tropicale et les montagnes situées au nord du Brésil. Aujourd’hui, les Yanomami peinent à survivre car le gouvernement ne les protège pas des éleveurs  qui envahissent et rasent les forêts de leur territoire.'
                     },
                 },
                 second: [
