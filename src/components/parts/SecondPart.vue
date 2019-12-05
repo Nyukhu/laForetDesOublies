@@ -116,7 +116,7 @@
                 title: "Meurtres",
                 data: "mortality2"
             },
-            cursor: 2018,
+            cursor: 2020,
             presidents: [
                 {
                     number: 1,
@@ -202,6 +202,11 @@
                     }
                 }
                 line.style.opacity = 1
+            }
+        },
+        computed: {
+            total () {
+                return this.totals.filter(item => parseInt(item.year) === parseInt(this.cursor))[0].total;
             }
         },
         mounted() {
