@@ -34,7 +34,7 @@
                     .attr("stroke-width", 0.7)
                     //.attr("style", "transform: rotate(-35deg);")
                     .attr("style", "position: absolute; top: 0; left:0")
-                    //.style("fill", "url(#fond_card)")
+                    .style("fill", "url(#fond_carte)")
                     .style("stroke", "white");
                 const amazonia = svg.append("g");
                 const terres = svg.append("g");
@@ -287,7 +287,7 @@
     }
     .preshow{
         display: none;
-        padding: 3px;
+        padding: 2px;
         justify-content: center;
         align-items: center;
         background-color: black;
