@@ -1,23 +1,35 @@
 <template>
-    <first-part
+    <div id="areas">
+        <first-part
             :payload="payload.first"
             :properties="properties"
             :id="1"/>
-<!--    <second-part-->
-<!--            :payload="payload.second"-->
-<!--            :properties="properties"-->
-<!--            :id="2"/>-->
-    <third-part :properties="properties"/>
+        <fourth-part :payload="payload.fourth"/>
+        <fifth-part :payload="payload.fifth"/>
+        <second-part
+            :payload="payload.second[0]"
+            :properties="properties"
+            :id="1"/>
+        <second-part
+            :payload="payload.second[1]"
+            :properties="properties"
+            :id="2"
+            colored
+        />
+        <third-part :properties="properties"/>
+    </div>
 </template>
 
 <script>
     import FirstPart from "../parts/FirstPart";
     import SecondPart from "../parts/SecondPart";
     import ThirdPart from "../parts/ThirdPart";
+    import FourthPart from "../parts/FourthPart";
+    import FifthPart from "../parts/FifthPart";
 
     export default {
         name: "Areas",
-        components: {SecondPart, FirstPart, ThirdPart},
+        components: {FirstPart, SecondPart, ThirdPart, FourthPart, FifthPart},
         props: {
             properties: {type: Object}
         },
@@ -29,20 +41,40 @@
                     },
                     title: 'DES TERRES PROTÉGÉES MAIS <br> TOUJOURS MENACÉES',
                     explications: {
-                        quote: 'Notre terre doit être respectée. <br> Elle est notre héritage : un <br> héritage qui nous protège.',
+                        quote: '« Notre terre doit être respectée. <br> Elle est notre héritage : un <br> héritage qui nous protège. »',
                         signature: '- Davi Kopenawa , un Yanomami',
-                        description: 'Avec une superficie de six millions de kilomètres carrés, la forêt amazonienne est la plus grande zone de forêt ancienne tropicale de la planète. Véritable trésor de biodiversité, elle est pillée et ravagée de plus en plus chaque année.'
                     },
-                    chart: {
-                        title: 'ÉVOLUTION DE LA DÉFORESTATION <br> DES TERRES INDIGÈNES',
-                        description: 'Les terres indigènes sont de plus en plus menacées par la déforestation. En 2019, plus de 386,9 km2 de ces terres ont été ravagées.'
-                    }
                 },
-                second: {
-                    title: 'LES TERRES INDIGÈNES LES PLUS TOUCHÉES <br> PAR LA DÉFORESTATION',
-                    description: 'La tribu des Awà est la quatrième tribu la plus touchée par la déforestation sur la période 2008 à 2019..'
-                }
+                second: [
+                    {
+                        title: 'TERRES INDIGÈNES PROTÉGÉES EN AMAZONIE <br> LÉGALES EN KM² PAR ANNÉES'
+                    },
+                    {
+                        title: 'NOMBRE DE TERRITOIRES PROTÉGÉS <br> PAR PRÉSIDENCE',
+                    },
+                ],
+                fourth: {
+                    title: 'LES DROITS INDIGÈNES, DES LOIS <br> RÉCENTES',
+                    year: 1988,
+                    subtitle: 'LES DROITS DES INDIGÈNES ONT ÉTÉ RECONNUS ET INSCRITS DANS LA CONSTITUTION.',
+                    description: 'Ils ont le droit de disposer de leurs terres à titre naturel et traditionnels. Cela leur offre un usage exclusif des terres, du sol et de l\'eau présente sur ces territoires. Le gouvernement s\'est engagé à protéger et respecter les indigènes ainsi que leurs traditions et leur cultures en entamant une grande démarcation des terres autochtones.'
+                },
+                fifth: [
+                    {
+                        number: 13,
+                        description: "DES TERRES BRÉSILIENNES SONT DES TERRES INDIGÈNES PROTÉGÉES"
+                    },
+                    {
+                        number: 305,
+                        description: "TRIBUS RECONNUES EN 2019 PAR L'ASSOCIATION SURVIVAL"
+                    },
+                    {
+                        number: 154,
+                        description: "DIALECTES SONT PARLÉS À TRAVERS LES DIFFÉRENTES TRIBUS INDIGÈNES"
+                    },
+                ]
             }
+        }),
     }
 </script>
 

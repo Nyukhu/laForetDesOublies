@@ -16,12 +16,14 @@
 
     import Deforestation from "./pop-up/Deforestation";
     import Mortality from "./pop-up/Mortality";
+    import Areas from "./pop-up/Areas";
 
     export default {
         name: "Modal",
         components: {
             Deforestation,
-            Mortality
+            Mortality,
+            Areas
         },
         props: {
             show: { type: Boolean },

@@ -18,14 +18,16 @@
                     <div>
                         <div id="explications-quote">
                             <span
-                                style="margin: auto"
+                                style="margin: auto; text-align: right;"
                                 v-html="payload.explications.quote"></span>
                             <p id="signature">{{ payload.explications.signature }}</p>
                         </div>
                         <p id="explications-description">{{ payload.explications.description }}</p>
                     </div>
                 </div>
-                <div id="chart">
+                <div
+                    v-if="payload.chart"
+                    id="chart">
                     <div id="chart-description">
                         <h2 v-html="payload.chart.title"></h2>
                         <img
@@ -202,7 +204,7 @@
             #explications {
                 display: flex;
                 flex-direction: row;
-                margin: 2rem auto 0 auto;
+                margin: 2rem auto 8rem auto;
                 img {
                     height: 300px;
                     margin-right: -40px;
@@ -212,7 +214,7 @@
                 #explications-quote {
                     font-family: Merriweather;
                     font-size: 30px;
-                    width: 400px;
+                    width: 480px;
                     background-color: #090E0C;
                     color: #F1EEDF;
                     padding: 65px 90px 85px 90px;
@@ -233,7 +235,6 @@
                 }
             }
             #chart {
-                margin-top: 8rem;
                 #chart-description {
                     position: relative;
                     h2 {

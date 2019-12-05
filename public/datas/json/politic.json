@@ -1,0 +1,112 @@
+[
+  {
+    "date": 2016,
+    "number": {
+      "declared": 1,
+      "approved": 2
+    },
+    "surface": {
+      "declared": 3392275,
+      "approved": 19216
+    }
+  },
+  {
+    "date": 2015,
+    "number": {
+      "declared": 9,
+      "approved": 10
+    },
+    "surface": {
+      "declared": 878462,
+      "approved": 1240776
+    }
+  },
+  {
+    "date": 2011,
+    "number": {
+      "declared": 11,
+      "approved": 5
+    },
+    "surface": {
+      "declared": 964170,
+      "approved": 2025406
+    }
+  },
+  {
+    "date": 2007,
+    "number": {
+      "declared": 13,
+      "approved": 26
+    },
+    "surface": {
+      "declared": 1821205,
+      "approved": 7690239
+    }
+  },
+  {
+    "date": 2003,
+    "number": {
+      "declared": 52,
+      "approved": 20
+    },
+    "surface": {
+      "declared": 7917596,
+      "approved": 10988935
+    }
+  },
+  {
+    "date": 1999,
+    "number": {
+      "declared": 18,
+      "approved": 47
+    },
+    "surface": {
+      "declared": 7917596,
+      "approved": 10988935
+    }
+  },
+  {
+    "date": 1995,
+    "number": {
+      "declared": 81,
+      "approved": 32
+    },
+    "surface": {
+      "declared": 7917596,
+      "approved": 10988935
+    }
+  },
+  {
+    "date": 1992,
+    "number": {
+      "declared": 10,
+      "approved": 23
+    },
+    "surface": {
+      "declared": 7917596,
+      "approved": 10988935
+    }
+  },
+  {
+    "date": 1990,
+    "number": {
+      "declared": 74,
+      "approved": 35
+    },
+    "surface": {
+      "declared": 7917596,
+      "approved": 10988935
+    }
+  },
+  {
+    "date": 1985,
+    "number": {
+      "declared": 21,
+      "approved": 34
+    },
+    "surface": {
+      "declared": 7917596,
+      "approved": 10988935
+    }
+  }
+]

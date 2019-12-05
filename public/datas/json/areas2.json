@@ -1,0 +1,32 @@
+[
+  {
+    "president": "Mr eefrg",
+    "startDate": 1985,
+    "endDate": 1990,
+    "image": "image"
+  },
+  {
+    "index": 4,
+    "km2": 1100000,
+    "year": 2008,
+    "color": "#d95c2f"
+  },
+  {
+    "index": 3,
+    "km2": 1084555,
+    "year": 2008,
+    "color": "#de672e"
+  },
+  {
+    "index": 2,
+    "km2": 793505,
+    "year": 1990,
+    "color": "#ea7a2d"
+  },
+  {
+    "index": 1,
+    "km2": 410173,
+    "year": 1980,
+    "color": "#f1832c"
+  }
+]

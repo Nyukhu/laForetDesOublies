@@ -31,7 +31,7 @@
                     },
                     title: 'UNE VIE CONSTAMMENT <br> MENACÉE',
                     explications: {
-                        quote: 'Les bûcherons peuvent entrer sur leur territoire à tout moment',
+                        quote: '« Les bûcherons peuvent entrer sur leur territoire à tout moment. »',
                         signature: '-  Veri Katukina,  Protecteur des Kawahiva',
                         description: 'La tribu Kawahiva est petit groupe d’Indiens isolés est sur le point de disparaître. Ils doivent fuir constamment pour échapper à la violence des étrangers qui envahisse leur forêt. Beaucoup ont été tué lors d’attaques ou des épidémies  '
                     },

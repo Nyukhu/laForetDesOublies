@@ -31,7 +31,7 @@
                     },
                     title: 'UNE FORÊT DE PLUS EN <br> PLUS EXPLOITÉE',
                     explications: {
-                        quote: 'Si vous détruisez la forêt, <br> vous nous détruisez aussi',
+                        quote: '« Si vous détruisez la forêt, <br> vous nous détruisez aussi. »',
                         signature: '- Blade , un Awà',
                         description: 'Avec une superficie de six millions de kilomètres carrés, la forêt amazonienne est la plus grande zone de forêt ancienne tropicale de la planète. Véritable trésor de biodiversité, elle est pillée et ravagée de plus en plus chaque année.'
                     },
