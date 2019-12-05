@@ -172,7 +172,7 @@
             font-size: 24px;
         }
         p{
-            width: 20vw;
+            width: 15vw;
         }
     }
 
