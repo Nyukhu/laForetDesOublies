@@ -29,7 +29,7 @@
                 const projection = d3.geoConicConformal()
                     .center([-45, 10])
                     .scale(1500)
-                    .translate([innerWidth/1.25, innerHeight /3.75]);
+                    .translate([innerWidth/1.125, innerHeight /3.75]);
                 path.projection(projection);
                 const svg = d3.select('#map')
                     .append("svg")
