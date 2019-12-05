@@ -44,8 +44,8 @@
                 </div>
                 <div v-else-if="properties.component === 'areas' && id === 1">
                     <div class="chart-legend">
-                        <square-chart :cursor="cursor"/>
-                        <p style="font-size: 62px; font-weight: bold">1,174,273 km²</p>
+                        <square-chart :cursor="cursor" />
+                        <p style="font-size: 62px; font-weight: bold">{{ total }} km²</p>
                     </div>
                     <range
                         id="range"
@@ -59,7 +59,7 @@
                         <line-chart />
                    </div>
                     <div id="presidents-legend">
-                        <ul>
+                        <ul style="cursor: pointer">
                             <li
                                 v-for="(president, i) of presidents"
                                 :key="'president' + i">
@@ -168,7 +168,29 @@
                     startDate: "Mai 2016",
                     endDate: "Avril 2018",
                 },
-            ]
+            ],
+            totals: [
+                {
+                    year: 1980,
+                    total: 410173
+                },
+                {
+                    year: 1990,
+                    total: 410173 + 793505
+                },
+                {
+                    year: 2000,
+                    total: 410173 + 793505 + 1084555
+                },
+                {
+                    year: 2010,
+                    total: 410173 + 793505 + 1084555 + 1100000
+                },
+                {
+                    year: 2020,
+                    total: 410173 + 793505 + 1084555 + 1100000 + 1150000
+                },
+            ],
         }),
         watch: {
             selectedLegend(val) {
@@ -208,7 +230,6 @@
         background-size: cover;
         object-fit: cover;
         height: 1400px;
-
         #content {
             z-index: 3;
             padding: 0 16rem;

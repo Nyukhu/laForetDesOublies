@@ -1,6 +1,9 @@
 <template>
     <div id="app">
         <div id="container">
+            <a
+                id="about-link"
+                @click="openAbout()">À propos</a>
             <Map
                 :show.sync="show"
                 :properties.sync="properties"
@@ -27,31 +30,27 @@
             Map
         },
         data: () => ({
-            threats: [
-                {
-                    icon: 1,
-                    label: 'Déforestation',
-                    name: 'deforestation',
-                    chart: 'deforestation'
-                },
-                {
-                    icon: 2,
-                    label: 'Mortalité',
-                    name: 'mortality',
-                    chart: 'mortality'
-                },
-                {
-                    icon: 3,
-                    label: 'Protection des terres',
-                    name: 'areas',
-                    chart: 'areas'
-                },
-            ],
             hovered:"",
             show: false,
             properties: null,
         }),
         methods: {
+            openAbout() {
+                console.log("ok")
+                this.properties = {
+                    "title":"A propos",
+                    "name":"about",
+                    "component": "about"
+                };
+                this.show = true;
+                setTimeout(() => {
+                    window.scroll({
+                        top: 950,
+                        left: 0,
+                        behavior: 'smooth'
+                    });
+                }, 300)
+            },
             openModal (threat) {
                 this.show = true;
                 this.properties = threat;
@@ -141,6 +140,14 @@
                         }
                     }
                 }
+            }
+            #about-link {
+                z-index: 32;
+                cursor: pointer;
+                position: absolute;
+                top: 60px;
+                left: 80%;
+                opacity: 0.7;
             }
         }
     }

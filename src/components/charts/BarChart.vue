@@ -25,14 +25,12 @@
         methods: {
             draw () {
                let self = this;
-                const margin = {top: 20, right: 20, bottom: 90, left: 120};
+                const margin = {top: 40, right: 20, bottom: 90, left: 120};
                 let height = 400 - margin.top - margin.bottom;
 
                 let width = 800 - margin.left - margin.right;
                 if (self.name.includes('mortality')) {
                    width = 550 - margin.left - margin.right
-                }
-                if (self.name == 'deforestation2') {
                 }
 
                 const x = d3.scaleBand()
@@ -45,9 +43,21 @@
                 const svg = d3.select("#bar-chart" + this.number).append("svg")
                     .attr("id", "svg")
                     .attr("width", width + margin.left + margin.right)
-                    .attr("height", height + margin.top + margin.bottom)
+                    .attr("height", () => {
+                       let customHeight = height + margin.top + margin.bottom
+                       if (this.name === 'deforestation2') {
+                          customHeight = customHeight + 200
+                       }
+                       return customHeight
+                    })
                     .append("g")
-                    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+                    .attr("transform", () => {
+                       if (this.name === 'deforestation2') {
+                          return "translate(60,200)"
+                       } else {
+                          return "translate(" + margin.left + "," + margin.top + ")";
+                        }
+                    });
 
                d3.json("datas/json/" + this.name +".json").then(function(data) {
                   x.domain(data.map(function(d) { return d.axe1; }));
@@ -117,7 +127,7 @@
                   if (self.name.includes('mortality')) {
                      svg.append('text')
                              .attr('x', 0)
-                             .attr('y', 0)
+                             .attr('y', -10)
                              .attr('text-anchor', 'middle')
                              .style("fill", "white")
                              .text('surface (km²)')
@@ -185,13 +195,9 @@
                   .text((d) => { let axe;
                              self.name !== 'deforestation2' ? axe = d.axe2 : axe = d.name;
                              return axe; })
-                  
                   .attr('text-anchor', 'left')
-                  .style("fill", (d) => {
-                     let color = ""
-                     self.name !== 'deforestation2' ? color = "black" : color = "white";
-                     return color
-                  })
+                  .style('font-weight', "bold")
+                  .style("fill", "white")
                   .attr("font-family", "sans-serif")
                   .attr("transform", (d) =>{
                      let transfo = ""
@@ -202,31 +208,28 @@
                   .attr("x",(d) => { 
                      let center = 20
                      if (self.name.includes('mortality')) {
-                                 center = 62.5
-                                 return x(d.axe1) + 50; 
-                              } else {
-                                 if (self.name === 'deforestation') {
-                                    center = 20
-                                    return x(d.axe1); 
-                                 } else {
-                                    center = 25
-                                    return d.axe1 - 270; 
-                                 }
-                              }
+                        center = 62.5
+                        return x(d.axe1) + 50;
+                     } else {
+                        if (self.name === 'deforestation') {
+                           center = 20
+                           return x(d.axe1) + 2.5;
+                        } else {
+                           center = 25
+                           return d.axe1 - 270;
+                        }
+                     }
                      return x(d.axe1); 
                      })
                   .attr("y", (d) => {
-                             let axe;
-                              if(self.name !== 'deforestation2')
-                              {
-                                 return y(d.axe2) + 13; 
-                              } 
-                              else 
-                              {
-                                 return x(d.axe1) + 20; 
-                              };
-                              
-                        })
+                       let axe;
+                        if(self.name !== 'deforestation2') {
+                           return y(d.axe2) - 5;
+                        }
+                        else {
+                           return x(d.axe1) + 20;
+                        };
+                     })
                });
 
             }

@@ -7,7 +7,7 @@
                 <a
                     id="act"
                     class="buttons"
-                    href="https://www.survivalinternational.fr/agir/lettres">ÉCRIVEZ UNE LETTRE</a>
+                    href="https://www.survivalinternational.fr/agir/lettres">AGISSEZ</a>
                 <a
                     id="donate"
                     class="buttons"

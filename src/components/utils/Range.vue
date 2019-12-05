@@ -41,7 +41,7 @@
 
             var getTrackStyle = function (el) {
                 var curVal = el.value,
-                    val = (curVal - 1) * 2,
+                    val = (curVal - 1) * 1.2,
                     style = '';
 
                 // Set active label
@@ -162,24 +162,12 @@
         li {
             position: relative;
             float: left;
-            width: 130px;
+            width: 127px;
             text-align: center;
             color: #b2b2b2;
             font-size: 20px;
             cursor: pointer;
-
-            &::before {
-                position: absolute;
-                top: -25px;
-                right: 0;
-                left: 0;
-                content: "";
-                margin: 0 auto;
-                width: 9px;
-                height: 9px;
-                background: grey;
-                border-radius: 50%;
-            }
+            pointer-events: none;
         }
 
         .selected::before {

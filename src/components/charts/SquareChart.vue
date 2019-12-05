@@ -8,7 +8,7 @@
     export default {
         name: "SquareChart",
         props: {
-            cursor: [Number, String]
+            cursor: [Number, String],
         },
         mounted() {
             this.draw();

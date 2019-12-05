@@ -17,13 +17,15 @@
     import Deforestation from "./pop-up/Deforestation";
     import Mortality from "./pop-up/Mortality";
     import Areas from "./pop-up/Areas";
+    import About from "./pop-up/About";
 
     export default {
         name: "Modal",
         components: {
             Deforestation,
             Mortality,
-            Areas
+            Areas,
+            About
         },
         props: {
             show: { type: Boolean },
@@ -33,22 +35,6 @@
             currentComponent () {
                 return this.properties.component.charAt(0).toUpperCase() + this.properties.component.slice(1)
             },
-        },
-        mounted () {
-            // this.clickOutside();
-        },
-        methods: {
-            clickOutside () {
-                let app = document.querySelector('#app');
-                let self = this;
-                app.addEventListener('click', (event) => {
-                    if (event.target.id !== 'modal' && !event.target.classList.contains('items') && !event.target.classList.contains('points') &&  !event.target.parentNode.classList.contains('items')) {
-                        if (self.show) {
-                            self.$emit('update:show', false)
-                        }
-                    }
-                });
-            }
         },
     }
 </script>
@@ -63,7 +49,7 @@
         flex-direction: column;
         margin: auto;
         width: 100vw;
-        background-color: grey;
+        background-color: black;
         z-index: 5;
         top: 100vh;
     }
