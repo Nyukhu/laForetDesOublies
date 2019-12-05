@@ -52,12 +52,6 @@
                 curLabel.addClass('active selected');
                 curLabel.prevAll().addClass('selected');
 
-                // Change background gradient
-                for (var i = 0; i < prefs.length; i++) {
-                    style += '.range {background: linear-gradient(to right, #37adbf 0%, #37adbf ' + val + '%, #fff ' + val + '%, #fff 100%)}';
-                    style += '.range input::-' + prefs[i] + '{background: linear-gradient(to right, #37adbf 0%, #37adbf ' + val + '%, #b2b2b2 ' + val + '%, #b2b2b2 100%)}';
-                }
-
                 return style;
             }
 
