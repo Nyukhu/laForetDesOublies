@@ -42,7 +42,7 @@
                 },
                 second: {
                     title: 'EVOLUTION DU NOMBRE DE <br> MORTS ENTRE 2017 ET 2018',
-                    description: 'Si la quantité de suicide en chez les indigène  à légèrement diminuer, le bilan reste sévère. De même pour la mortalité enfantile. La quantité de meurtre quant à elle ne cesse d’augmenter'
+                    description: 'Si la quantité de suicide chez les indigènes  a légèrement diminué, le bilan reste sévère. De même pour la mortalité infantile. La quantité de meurtre quant à elle ne cesse d’augmenter'
                 }
             },
         }),

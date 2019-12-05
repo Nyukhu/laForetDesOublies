@@ -93,7 +93,7 @@
                 {
                     type: 'pie',
                     colors: ["#161916", "#FFFFFF", "#C0CCBC", "#92A590", "#3F493E"],
-                    legends: ["Abus de pouvoir et Discrimination", "Tentatives de meurtres", "Menaces", "Lésions corporels volontaire et violences sexuelles", "Homicides involontaires"]
+                    legends: ["Abus de pouvoir et Discrimination", "Tentatives de meurtres", "Menaces", "Lésions corporels volontaires et violences sexuelles", "Homicides involontaires"]
                 }
             ],
             hovered: null,

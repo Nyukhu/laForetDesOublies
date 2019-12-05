@@ -2,16 +2,16 @@
     <div id="third-part">
         <div id="card">
             <p id="title">COMMENT AGIR ?</p>
-            <p id="description">L'un des meilleurs moyen pour obtenir des changements dans la situation actuelle des indigènes c'est d'écrire à ceux aui détiennent le pouvoir. L'association Survival International vous aide dans cette démarche. Vous pouvez aussi faire un don à l'association.</p>
+            <p id="description">L'un des meilleurs moyens pour obtenir des changements dans la situation actuelle des indigènes c'est d'écrire à ceux qui détiennent le pouvoir. L'association <a href="https://www.survivalinternational.fr/">Survival International</a>vous aide dans cette démarche. Vous pouvez aussi faire un don à l'association.</p>
             <div id="buttons-container">
                 <a
                     id="act"
                     class="buttons"
-                    href="">AGISSEZ</a>
+                    href="https://www.survivalinternational.fr/agir/lettres">ÉCRIVEZ UNE LETTRE</a>
                 <a
                     id="donate"
                     class="buttons"
-                    href="">FAITES UN DON</a>
+                    href="https://www.survivalinternational.fr/donner">FAITES UN DON</a>
                 <img
                     id="brush"
                     src="../../assets/images/brush.png" />
