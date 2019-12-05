@@ -23,7 +23,7 @@
     export default {
         name: "FifthPart",
         props: {
-            payload: {type: Object}
+            payload: {type: Array}
         }
     }
 </script>
