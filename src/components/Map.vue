@@ -11,6 +11,9 @@
         mounted() {
             this.drawMap();
         },
+        data: () => ({
+            clicked: [],
+        }),
         methods: {
             drawMap() {
                 const widthMap = innerWidth;
@@ -28,7 +31,7 @@
                     .attr("height", heightMap)
                     .attr("fill", "none")
                     .attr("stroke", "white")
-                    .attr("stroke-width", 1)
+                    .attr("stroke-width", 0.7)
                     //.attr("style", "transform: rotate(-35deg);")
                     .attr("style", "position: absolute; top: 0; left:0")
                     //.style("fill", "url(#fond_card)")
@@ -81,7 +84,7 @@
                     .attr("xlink:href","datas/png/fond_arbre.jpg")
                     .attr("x", 0)
                     .attr("y", 0);
-
+                let self = this
                 Promise.all([
                     d3.json("datas/json/amazonia.json"),
                     d3.json("datas/json/indigeneous_territories.json"),
@@ -98,7 +101,7 @@
                             return "white"
                         }
                         else{
-                            return "grey"
+                            return "#ffffff40"
                         }
                     })
                     terres.selectAll("path")
@@ -110,7 +113,7 @@
                         .attr("fill", "#00000000")
                         .attr("stroke", "none")
                         
-                    let self = this
+                    
                     points.selectAll("path")
                         .data(datas[2].features)
                         .enter()
@@ -130,9 +133,9 @@
                             if(d.properties.title == "danger")
                                 return "10px"
                             else
-                                return "2px"
+                                return "3px"
                           })
-                        .attr("fill", function(d){
+                        .style("fill", function(d){
                             if(d.properties.title == "danger")
                                 return "url(#svgPointGradient)"
                             else
@@ -150,16 +153,25 @@
                             if (thisEl.classList.contains("danger")) {
                                 points.forEach((point) => {
                                 if(!point.classList.contains('danger') && d.properties.name == "Kawahiva do Rio Pardo"){
-                                    point.style.fill = 'url(#svgPointGradient)'
+                                    d3.select(point).transition()
+                                        .duration(200)
+                                        .style("fill", "#cd482f")
+                                        .style("filter", "url(#glow)");
                                 }
                             })
+
+                            
+                        
                             }
                             
                             
                             let terres = document.querySelectorAll('.terres');
                             if (d.properties.name == "Yanomami") {
                                 terres.forEach((terre) => {
-                                    terre.style.fill = "#ffffff45"
+                                     d3.select(terre).transition()
+                                        .duration(200)
+                                        .style("fill", "#edebd850")
+                                        .style("filter", "none");
                                 })
                             }
 
@@ -169,46 +181,65 @@
                             let y = thisEl.getBoundingClientRect().y;
                             let x = thisEl.getBoundingClientRect().x;
 
-
-                            preshow.style.top = thisEl.getBoundingClientRect().y - 45 + "px";
-                            preshow.style.left = thisEl.getBoundingClientRect().x - 100 +"px";
-                            preshow.style.opacity = 0.1
-                            preshow.style.display = "block";
-                            preshow.style.opacity = 1.0
-                            preshow.style.top = thisEl.getBoundingClientRect().y - 50 + "px";
-                            preshow.style.left = thisEl.getBoundingClientRect().x - 100 +"px";
-                            preshow.innerHTML = d.properties.name
+                            if (thisEl.classList.contains("danger") || this.clicked.includes("tribes")) {
+                                preshow.style.top = thisEl.getBoundingClientRect().y - 45 + "px";
+                                preshow.style.left = thisEl.getBoundingClientRect().x - 100 +"px";
+                                preshow.style.opacity = 0.1
+                                preshow.style.display = "flex";
+                                preshow.style.opacity = 1.0
+                                preshow.style.top = thisEl.getBoundingClientRect().y - 50 + "px";
+                                preshow.style.left = thisEl.getBoundingClientRect().x - 100 +"px";
+                                preshow.innerHTML = d.properties.name + "<br>"+ d.properties.theme
+                                
+                            }
 
                         })
                         .on("mouseleave", (d) => {
                             let thisEl = document.getElementById(d.properties.name.split(' ').join('+'))
                             console.log("exited",thisEl)
                              if(d.properties.title == "danger")
-                                thisEl.style.fill = "#e08422"
+                                thisEl.style.fill = "url(#svgPointGradient)"
                             else
-                                 thisEl.style.fill = "#9c764c"
+                                 thisEl.style.fill = "#cd482f"
                             let preshow = document.querySelector('.preshow');
-                            preshow.style.display = "none";
+
+                            if (1) {
+                                preshow.style.display = "none";
+                            }
 
                             
 
                             let points = document.querySelectorAll('.points')
                             points.forEach((point) => {
-                                    if(!point.classList.contains('danger')){
-                                        point.style.fill = '#00000000'
+                                    if(!point.classList.contains('danger') && !self.clicked.includes("tribes")){
+                                        d3.select(point).transition()
+                                        .duration(200)
+                                        .style("fill", "#00000000")
+                                        .style("filter", "none");
                                     }
                                 })
                             
                             let terres = document.querySelectorAll('.terres');
-                            if (d.properties.name == "Yanomami") {
+                            if (d.properties.name == "Yanomami" && !self.clicked.includes("terres")) {
                                 terres.forEach((terre) => {
-                                    terre.style.fill = "#00000000"
+                                    d3.select(terre).transition()
+                                        .duration(200)
+                                        .style("fill", "#00000000")
+                                        .style("filter", "none");
                                 })
                             }
                         })
                         .on("click", (d) => {
                             self.$emit('update:show', true);
                             self.$emit('update:properties', d.properties);
+
+                            if (d.properties.name == "Kawahiva do Rio Pardo") {
+                                this.clicked.push("tribes")
+                            }
+                            if (d.properties.name == "Yanomami") {
+                                this.clicked.push("terres")
+                            }
+
                             if (d.properties.hasOwnProperty('component')) {
                                 setTimeout(() => {
                                     window.scroll({
@@ -256,19 +287,18 @@
     }
     .preshow{
         display: none;
-        background-color: white;
-        height: 50px;
+        padding: 3px;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
         width: 100px;
         position: absolute;
         z-index: 80;
-        color: black;
+        color: white;
         transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     }
-    .danger :hover{
-       fill: red;
-    }
-    .points{
-        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    }
+    
+    
 
 </style>
