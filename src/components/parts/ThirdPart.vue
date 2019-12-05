@@ -2,7 +2,7 @@
     <div id="third-part">
         <div id="card">
             <p id="title">COMMENT AGIR ?</p>
-            <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+            <p id="description">L'un des meilleurs moyen pour obtenir des changements dans la situation actuelle des indigènes c'est d'écrire à ceux aui détiennent le pouvoir. L'association Survival International vous aide dans cette démarche. Vous pouvez aussi faire un don à l'association.</p>
             <div id="buttons-container">
                 <a
                     id="act"

@@ -29,19 +29,19 @@
                     tribu: {
                         name: 'KAWAHIVA'
                     },
-                    title: 'UNE VIE CONSTAMMENT <br> MENACÉE',
+                    title: 'DES VIES CONSTAMMENT <br> MENACÉES',
                     explications: {
                         quote: '« Les bûcherons peuvent entrer sur leur territoire à tout moment. »',
                         signature: '-  Veri Katukina,  Protecteur des Kawahiva',
-                        description: 'La tribu Kawahiva est petit groupe d’Indiens isolés est sur le point de disparaître. Ils doivent fuir constamment pour échapper à la violence des étrangers qui envahisse leur forêt. Beaucoup ont été tué lors d’attaques ou des épidémies  '
+                        description: 'La tribu Kawahiva, un petit groupe d’Indiens isolés, est sur le point de disparaître. Ils doivent fuir constamment pour échapper à la violence des étrangers qui envahisse leur forêt. Beaucoup ont été tué lors d’attaques ou des épidémies  '
                     },
                     chart: {
-                        title: 'REPARTITION DES DIFFÉRENTES <br> TYPE DE VIOLENCES SUBITENT',
+                        title: 'REPARTITION DES<br> TYPES DE VIOLENCES SUBITES',
                         description: 'Tous les peuples indigènes brésiliens, soit 900 000 personnes, vivent sous la menace de violence et d’intrusion sur leur terre au quotidien. Leur forêt sacrée devient alors un milieu violent et hostile.'
                     }
                 },
                 second: {
-                    title: 'EVOLUTION DU NOMBRE DE <br> MORT ENTRE 2017 ET 2018',
+                    title: 'EVOLUTION DU NOMBRE DE <br> MORTS ENTRE 2017 ET 2018',
                     description: 'Si la quantité de suicide en chez les indigène  à légèrement diminuer, le bilan reste sévère. De même pour la mortalité enfantile. La quantité de meurtre quant à elle ne cesse d’augmenter'
                 }
             },
