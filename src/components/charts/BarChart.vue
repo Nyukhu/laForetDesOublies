@@ -124,15 +124,7 @@
                              .text('surface (km²)')
                              .attr("transform", "rotate(-90)");
                   }
-                  if (self.name.includes('mortality')) {
-                     svg.append('text')
-                             .attr('x', 0)
-                             .attr('y', -10)
-                             .attr('text-anchor', 'middle')
-                             .style("fill", "white")
-                             .text('surface (km²)')
-                  }
-
+                 
 
                   svg.append("g").call(d3.axisLeft(y).ticks(6)).selectAll("text")
                           .style("text-anchor", "middle")

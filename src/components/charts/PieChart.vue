@@ -163,6 +163,14 @@
                     .attr("transform", function(d) { return "translate(" + getArc(-10).centroid(d) + ")"; })
                     .style("font-size", "18px")
                     .style("font-weight", "bold")
+                    .style("fill",function(d){
+                        if (d.value == 26) {
+                            return "#ffffff"
+                        }
+                        else{
+                            return "black"
+                        }
+                    })
                     .attr("dy", ".3em")
                     .attr("dx", "-10")
                     .text(function(d) { return d.data + '%'; })

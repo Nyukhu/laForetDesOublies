@@ -170,8 +170,8 @@
                                 if(!point.classList.contains('danger') && d.properties.name == "Kawahiva do Rio Pardo"){
                                     d3.select(point).transition()
                                         .duration(200)
-                                        .style("fill", "#cd482f")
-                                        .style("filter", "url(#glow)");
+                                        .style("fill", "#cd482f");
+                                        //.style("filter", "url(#glow)");
                                 }
                             })
 

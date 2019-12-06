@@ -643,7 +643,7 @@
        "properties":{
           "title":"danger",
           "name":"Awá",
-          "theme": "déforestation",
+          "theme": "Déforestation",
           "component": "deforestation"
        }
     },
@@ -7141,7 +7141,7 @@
        "properties":{
           "title":"danger",
           "name":"Yanomami",
-          "theme": "terres protégés",
+          "theme": "Terres protégées",
           "component": "areas"
        }
     },
@@ -8277,7 +8277,7 @@
        "properties":{
           "title":"danger",
           "name":"Kawahiva do Rio Pardo",
-          "theme":"populations en danger",
+          "theme":"Populations en danger",
           "component": "mortality"
        }
     },
