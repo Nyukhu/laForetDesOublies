@@ -1,16 +1,2 @@
-@font-face {
-  font-family: "Cunia";
-  src: url("fonts/cunia.ttf") format("ttf");
-}
-@font-face {
-  font-family: "Merriweather";
-  src: url("fonts/Merriweather-Light.otf") format("otf");
-}
-@font-face {
-  font-family: "UbuntuBold";
-  src: url("fonts/Ubuntu-B.ttf") format("ttf");
-}
-@font-face {
-  font-family: "UbuntuLightItalic";
-  src: url("fonts/Ubuntu-LI.ttf") format("ttf");
-}
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,700&display=swap');

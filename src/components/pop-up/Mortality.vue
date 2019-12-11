@@ -36,7 +36,7 @@
                         description: 'La tribu Kawahiva, un petit groupe d’Indiens isolés, est sur le point de disparaître. Ils doivent fuir constamment pour échapper à la violence des étrangers qui envahissent leur forêt. Beaucoup ont été tués lors d’attaques ou des épidémies  '
                     },
                     chart: {
-                        title: 'RÉPARTITION DES<br> TYPES DE VIOLENCES SUBITES',
+                        title: 'RÉPARTITION DES<br> TYPES DE VIOLENCES SUBIES',
                         description: 'Tous les peuples indigènes brésiliens, soit 900 000 personnes, vivent sous la menace de violence et d’intrusion sur leur terre au quotidien. Leur forêt sacrée devient alors un milieu violent et hostile.'
                     }
                 },

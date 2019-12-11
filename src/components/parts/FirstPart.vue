@@ -212,7 +212,7 @@
                     z-index: 5;
                 }
                 #explications-quote {
-                    font-family: Merriweather;
+                    font-family: 'Merriweather', serif;
                     font-size: 30px;
                     width: 480px;
                     background-color: #090E0C;

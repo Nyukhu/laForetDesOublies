@@ -30,7 +30,7 @@
     scoped
     lang="scss">
     #third-part {
-        font-family: Ubuntu;
+        font-family: 'Ubuntu', sans-serif;
         background-color: white;
         height: 500px;
         display: flex;

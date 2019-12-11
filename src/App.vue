@@ -97,9 +97,10 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        background: url("assets/images/background.png") black no-repeat top right fixed;
+        background: url("assets/images/background.png") black repeat top right fixed;
         background-size: cover;
-        font-family: Ubuntu;
+        background-position-x: -200px;
+        font-family: 'Ubuntu', sans-serif;
         color: #D7E3D2;
         #container {
             height: 100vh;
@@ -111,7 +112,7 @@
             flex-direction: row;
             
             #legend {
-                font-family: Ubuntu;
+                font-family: 'Ubuntu', sans-serif;
                 font-style: italic;
                 font-weight: 300;
                 margin-top: 9rem;
@@ -124,7 +125,7 @@
                         font-size: 22px;
                     }
                     .points {
-                        font-family: Merriweather;
+                        font-family: 'Merriweather', serif;
                         border: 2px solid white;
                         width: 55px;
                         height: 55px;
@@ -172,7 +173,9 @@
             font-size: 24px;
         }
         p{
-            width: 15vw;
+            width: 20vw;
+            line-height: 2x;
+            font-size: 20px
         }
     }
 
